@@ -40,10 +40,6 @@
 > [!NOTE]
 > kommer senere
 
-## Lisens
-> [!NOTE]
-> kommer senere
-
 ## Bidragsytere
 > [!NOTE]
 > kommer senere
