@@ -16,10 +16,6 @@
 > [!NOTE]
 > kommer senere
 
-## Prosjektstruktur
-> [!NOTE]
-> kommer senere
-
 ## Teknologier og verktøy brukt
 > [!NOTE]
 > kommer senere
