@@ -8,6 +8,6 @@ scene expression Transform("rooms/bathrooms.webp", fit="cover", align=(0.5, 0.5)
 menu:
     "Gå tilbake til resepjsonen":
         jump reception
-    "Gå til sosial-sone":
+    "Gå til sosialsona":
         jump social_room
 return
