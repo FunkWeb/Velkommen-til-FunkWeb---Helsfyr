@@ -18,7 +18,7 @@ label meetingroom_blue:
 
     menu:
         "Hvor vil du gå?"
-        "sosial-sone":
+        "Sosialsona":
             jump social_room
-        "kjøkkenområdet":
+        "Kjøkkenområdet":
             jump kitchen
