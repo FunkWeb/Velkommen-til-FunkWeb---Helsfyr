@@ -23,7 +23,7 @@ label .choice_menu:
             "Gå til møterommet":
                 jump meetingroom_blue
 
-            "Gå til sosial-sone":
+            "Gå til sosialsona":
                 jump social_room
 
             "Gå til kjøkkenområdet":
