@@ -15,9 +15,9 @@ label aft_candidate_work_area:
     # scene_for_nest_største_møterommet, scene_for_mindre_møterommet, scene_sportsmate_lager og scene_mellomgang
     menu: 
         "Hvor vil du gå?"
-        "sosial sone":
+        "Sosialsona":
             jump social_room
-        "toalettene":
+        "Toalettene":
             jump kitchen
         # "til det nest største møterommet":
         #    jump scene_for_nest_største_møterommet
@@ -27,6 +27,6 @@ label aft_candidate_work_area:
         #    jump scene_sportsmate_lager
         # "tilbake til mellomgangen":
         #    jump scene_mellomgang
-        "tilbake til lko-området":
+        "Tilbake til LKO-området":
             jump lko
         
