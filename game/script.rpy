@@ -4,7 +4,8 @@
 # name of the character.
 
 define e = Character("Eileen")
-
+define ingeborg = Character("Ingeborg")
+define jorgen = Character("Jørgen")
 
 # The game starts here.
 
