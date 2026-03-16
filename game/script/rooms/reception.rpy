@@ -18,3 +18,5 @@ label reception:
             jump upper_entrance
         "Ta meg til kantina":
             jump canteen
+        "Gå ut":
+            jump outside_entrance
