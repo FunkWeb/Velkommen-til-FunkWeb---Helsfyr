@@ -14,8 +14,15 @@ label social_room:
     laila "Jeg er veldig glad i de varierte oppgavene jeg har, og jeg føler meg priviligert."
     laila "Jeg liker spesielt å møte alle fine mennesker som av ulike grunner er  tilknyttet FunkWeb."
     
-    # scenenavn er ukjent. hovedomvisning må byttes til riktig scenenavn.
-    # jump hovedomvisning
+    # videre inn i lokalet har ukjent scenenavn. må legges til.
+    menu: 
+        "Hvor vil du gå?"
+        "kjøkken":
+            jump kitchen
+        # "videre inn i lokalet":
+        #    jump scene_for_videre_i_lokalet
+        "til det største møterommet":
+            jump meetingroom_blue
+        "inngangspartiet":
+            jump funkweb_offices_entrance
 
-    # midlertidig. slettes når riktig scenenavn er kjent.
-    jump start
