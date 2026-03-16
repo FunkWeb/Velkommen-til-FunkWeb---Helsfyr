@@ -127,6 +127,7 @@ style vscrollbar:
     hover_thumb Solid("#00fc00") 
     unscrollable "hide"
 
+define laila = Character("Laila")
 
 define ingeborg = Character("Ingeborg")
 define jorgen = Character("Jørgen")
