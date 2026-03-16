@@ -4,6 +4,7 @@
 # name of the character.
 
 define e = Character("Eileen")
+define tl = Character("Trine Lise")
 
 
 # The game starts here.
@@ -31,6 +32,8 @@ label start:
     menu:
         "\"Hvor er toalettene?\"":
             jump toilets
+        "Mellomgang":
+            jump corridor
 
     # This ends the game.
 
