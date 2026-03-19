@@ -1,6 +1,6 @@
 label aft_candidate_work_area:
 
-    scene temp_workspace_aft
+    scene temp_workspace_aft with fade
 
     "Her sitter AFT kandidatene. Her kan du booke deg en plass og jobbe med prosjekter, skrive CV, jobbsøknader, eller kanskje ta noen onlinekurs."
     "Du kan reservere plass på booking.FunkWeb.no"
