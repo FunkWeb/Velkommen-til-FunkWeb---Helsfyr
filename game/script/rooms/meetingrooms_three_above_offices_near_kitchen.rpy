@@ -25,6 +25,3 @@ label meetingrooms_three_above_offices_near_kitchen:
             
         "Gå tilbake til toalettene":
             jump toilets
-        
-        
-        
