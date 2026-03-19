@@ -7,6 +7,7 @@ define e = Character("Eileen")
 define ingeborg = Character("Ingeborg")
 define jorgen = Character("Jørgen")
 
+define simen = Character("Simen")
 # The game starts here.
 
 label start:
