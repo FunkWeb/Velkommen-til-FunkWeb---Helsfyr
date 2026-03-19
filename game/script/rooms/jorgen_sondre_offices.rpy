@@ -1,6 +1,6 @@
 
 label jorgen_sondre_offices:
-    scene temp_office_jorgen_sondre
+    scene temp_office_jorgen_sondre with fade
 
     show jorgen_posing at left
     
