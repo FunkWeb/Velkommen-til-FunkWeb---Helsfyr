@@ -5,6 +5,8 @@
 
 define e = Character("Eileen")
 
+define ingeborg = Character("Ingeborg")
+define jorgen = Character("Jørgen")
 define laila = Character("Laila")
 
 # The game starts here.
@@ -28,6 +30,10 @@ label start:
     e "You've created a new Ren'Py game."
 
     e "Once you add a story, pictures, and music, you can release it to the world!"
+
+    menu:
+        "\"Hvor er toalettene?\"":
+            jump toilets
 
     # This ends the game.
 
