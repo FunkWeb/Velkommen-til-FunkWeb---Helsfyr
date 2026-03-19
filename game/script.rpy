@@ -7,6 +7,8 @@ define e = Character("Eileen")
 define ingeborg = Character("Ingeborg")
 define jorgen = Character("Jørgen")
 
+
+define sondre = Character("Sondre")
 # The game starts here.
 
 label start:
@@ -26,7 +28,7 @@ label start:
     # These display lines of dialogue.
 
     e "You've created a new Ren'Py game."
-
+    
     e "Once you add a story, pictures, and music, you can release it to the world!"
 
     menu:
