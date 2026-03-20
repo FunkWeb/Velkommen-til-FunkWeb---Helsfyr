@@ -1,6 +1,28 @@
 
 label social_room:
+    # midlertidig bakgrunssbilde som starter med temp, må byttes med endelig bakgrunn.
+    scene temp_social_zone
 
-"Her kan du sosialisere og ta deg en pause sammen med de andre på huset. "
+    "Her kan du sosialisere og ta deg en pause sammen med de andre på huset. "
+    
+    show laila_smiling at left 
 
-return
+    laila "Hei, jeg heter Laila." 
+    laila "Jeg er Tiltaksansvarlig og HR-ansvarlig i FunkWeb." 
+    laila "Det betyr at jeg har det daglige ansvaret for gjennomføring av tiltakene, og jeg har personalansvaret for ansatte." 
+    laila "Jeg er også veileder noen ganger."
+    laila "Jeg er veldig glad i de varierte oppgavene jeg har, og jeg føler meg priviligert."
+    laila "Jeg liker spesielt å møte alle fine mennesker som av ulike grunner er  tilknyttet FunkWeb."
+    
+    # videre inn i lokalet har ukjent scenenavn. må legges til.
+    menu: 
+        "Hvor vil du gå?"
+        "kjøkken":
+            jump kitchen
+        # "videre inn i lokalet":
+        #    jump scene_for_videre_i_lokalet
+        "til det største møterommet":
+            jump meetingroom_blue
+        "inngangspartiet":
+            jump funkweb_offices_entrance
+
