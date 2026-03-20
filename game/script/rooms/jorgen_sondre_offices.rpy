@@ -12,14 +12,16 @@ label jorgen_sondre_offices:
     sondre "Hei, Jeg heter Sondre." 
     sondre "Jeg er IT-arkitekt og jobber med IT-Utvikling og er veileder for jobbsøkere og samarbeidspartnere. (TBD)"
 
-    # videre inn i lokalet og scene_tilbake_i_lokalet har ukjent scenenavn. må legges til.
+    # scene_tilbake_i_lokalet og mellomgangen har ukjent scenenavn. må legges til.
     menu: 
         "Hvor vil du gå?"
         "til veileder kontorene":
-            jump advisor_offices 
-        # "videre inn i lokalet":
-        #    jump scene_for_videre_i_lokalet
-        #"tilbake i lokalet":
+            jump aft_offices
+        "til LKO-området":
+            jump lko
+        # "til mellomgangen":
+        #    jump scene_for_mellomgang 
+        # "tilbake i lokalet":
         #    jump scene_tilbake_i_lokalet
         
 return
