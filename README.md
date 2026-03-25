@@ -27,7 +27,24 @@ For å kunne teste dette prosjektet lokalt:
 
 ## Teknologier og verktøy brukt
 > [!NOTE]
-> kommer senere
+> Mangler info om lyd
+  
+  Spillutvikling
+    *Ren'Py* – spillmotoren som brukes til å bygge spillet  
+    *Python* – logikk og skripting i Ren’Py  
+    *Visual Studio Code* – hovedverktøy for utvikling og redigering av prosjektfiler  
+
+  Bilder og grafikk
+    *iPhone og Android‑mobilkamera* – brukt til å ta bilder av ansatte og lokaler  
+    *Photoshop* – redigering, beskjæring og optimalisering av enkelte bilder   
+    *WebP‑format* – alle bilder er konvertert til WebP for bedre ytelse  
+    *Bildekomprimering* – alle bilder er komprimert for å redusere filstørrelse og forbedre lastetid   
+
+  Prosjektstyring og versjonskontroll
+    *Git & GitHub* – versjonskontroll, branches og samarbeid  
+    *GitHub Issues / Projects* – oppgavehåndtering og dokumentasjon  
+    *Asana* – planlegging, koordinering og prosjektstyring  
+
 
 ## Ressurser og Credits
 > [!NOTE]
