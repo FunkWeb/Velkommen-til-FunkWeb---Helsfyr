@@ -7,6 +7,7 @@ define e = Character("Eileen")
 define ingeborg = Character("Ingeborg")
 define jorgen = Character("Jørgen")
 define laila = Character("Laila")
+define eric = Character("Eric")
 
 # The game starts here.
 
