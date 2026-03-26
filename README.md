@@ -10,7 +10,23 @@
 
 ## Krav / Systemkrav
 > [!NOTE]
-> kommer senere
+### Windows
+- Operativsystem: Windows 10 eller nyere  
+- Prosessor: 2.0 GHz 64-bit Intel-kompatibel  
+- RAM: 2.0 GB  
+- Grafikk: OpenGL 3.0 eller DirectX 11  
+
+### macOS
+- Operativsystem: macOS 10.10 eller nyere  
+- Prosessor: 2.0 GHz 64/bit Intel-kompatibel eller Apple M1 eller nyere  
+- RAM: 2.0 GB  
+- Grafikk: OpenGL 3.0 
+
+### Linux
+- Operativsystem: Ubuntu 20.04 eller nyere  
+- Prosessor: 2.0 GHz 64-bit Intel-kompatibel  
+- RAM: 2.0 GB  
+- Grafikk: OpenGL 3.0   
 
 ## Installasjon og kjøring
 > [!WARNING]
@@ -26,8 +42,12 @@ For å kunne teste dette prosjektet lokalt:
   * Linux: pakk ut Ren'Py-zip mappen, `cd` inn i `renpy-<version>` mappen, og kjør `renpy.sh`
 
 ## Teknologier og verktøy brukt
-> [!NOTE]
-> kommer senere
+> Dette prosjektet er utviklet med følgende teknologier:
+
+- Ren'Py (versjon 8.5.2)
+- Python (innebygd i Ren'Py)
+- Visual Studio Code (kodeeditor)
+- GitHub (versjonskontroll og samarbeid)
 
 ## Ressurser og Credits
 > [!NOTE]
