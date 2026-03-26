@@ -42,12 +42,8 @@ For å kunne teste dette prosjektet lokalt:
   * Linux: pakk ut Ren'Py-zip mappen, `cd` inn i `renpy-<version>` mappen, og kjør `renpy.sh`
 
 ## Teknologier og verktøy brukt
-> Dette prosjektet er utviklet med følgende teknologier:
-
-- Ren'Py (versjon 8.5.2)
-- Python (innebygd i Ren'Py)
-- Visual Studio Code (kodeeditor)
-- GitHub (versjonskontroll og samarbeid)
+> [!NOTE]
+> kommer senere
 
 ## Ressurser og Credits
 > [!NOTE]
