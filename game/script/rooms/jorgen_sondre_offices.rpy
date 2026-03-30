@@ -24,4 +24,4 @@ label jorgen_sondre_offices:
         # "tilbake i lokalet":
         #    jump scene_tilbake_i_lokalet
         
-return
+
