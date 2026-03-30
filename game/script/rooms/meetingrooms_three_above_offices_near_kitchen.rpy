@@ -9,12 +9,11 @@ label meetingrooms_three_above_offices_near_kitchen:
         "Hvor vil du gå?"
         "sosial sone":
             jump social_room
-        "toalettene":
+        "til kjøkkenet":
             jump kitchen
         "kontoret til Jørgen og Sondre":
             jump jorgen_sondre_offices
-        "veilder kontorene":
+        "veileder kontorene":
             jump aft_offices
         "til kontor 1, 2 og 3":
             jump funkweb_offices_one_two_three
-return
