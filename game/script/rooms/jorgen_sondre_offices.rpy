@@ -9,7 +9,7 @@ label jorgen_sondre_offices:
     show sondre_posing at right 
 
     sondre "Hei, Jeg heter Sondre." 
-    sondre "Jeg er IT-arkitekt og jobber med IT-Utvikling og er veileder for jobbsøkere og samarbeidspartnere. (TBD)"
+    sondre "Jeg er IT-arkitekt og jobber med IT-Utvikling og er veileder for jobbsøkere og samarbeidspartnere."
 
     # scene_tilbake_i_lokalet og mellomgangen har ukjent scenenavn. må legges til.
     menu:
