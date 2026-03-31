@@ -11,6 +11,8 @@ label meetingrooms_three_above_offices_near_kitchen:
             jump social_room
         "til kjøkkenet":
             jump kitchen
+        "til toalettene":
+            jump toilets
         "kontoret til Jørgen og Sondre":
             jump jorgen_sondre_offices
         "veileder kontorene":
