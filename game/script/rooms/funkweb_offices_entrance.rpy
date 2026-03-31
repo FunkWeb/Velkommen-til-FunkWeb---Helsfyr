@@ -28,5 +28,3 @@ label .choice_menu:
 
             "Gå tilbake til inngangen til Funkweb":
                 jump upper_entrance
-
-            
