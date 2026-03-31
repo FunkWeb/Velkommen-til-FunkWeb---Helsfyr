@@ -1,6 +1,30 @@
 
 label funkweb_offices_entrance:
+    scene expression Transform("images/rooms/temp_waitingroom.webp", fit="cover", align=(0.5, 0.5)) with fade
+    show expression Transform("images/characters/johnny_smiling_two.webp", fit="cover", align=(0.5, 0.5)) at right with fade
 
-"Her er inngangen til Funkweb, Ring på døren så slippes du inn."
+    johnny "Hei, jeg er Johnny. Jeg er veileder her på funkweb og jobber i AFT: arbeidforberedende tiltak." 
+    johnny "Jeg elsker å prate om film, så hvis du ønsker å nerde litt om det, er jeg alltid positiv til det." 
+    johnny "Jeg snakker også flytende spansk."
+    johnny "La meg vise deg rundt."
 
-return
+    "Hvor vil du gå?"
+    
+    menu:
+        
+            "Se på persongalleriet":
+                show screen character_gallery
+            
+             "Gå til møterommet":
+                jump meetingroom_blue
+
+            "Gå til sosial-sone":
+                jump social_room
+
+            "Gå til kjøkkenområdet":
+                jump kitchen
+
+            "Gå tilbake til inngangen til Funkweb":
+                jump upper_entrance
+
+            
