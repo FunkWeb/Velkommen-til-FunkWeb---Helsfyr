@@ -17,16 +17,16 @@ label jorgen_sondre_offices:
     "Hvor vil du gå?"
     
     menu:
-        "Til veileder kontorene":
+        "Gå til veileder kontorene":
             jump aft_offices
             
         # "til mellomgangen":
         #    jump scene_for_mellomgang    
         
-        "Til LKO-området":
+        "Gå til LKO-området":
             jump lko_offices
             
-        "Tilbake til kontor 1-2-3":
+        "Gå tilbake til kontor 1-2-3":
             jump funkweb_offices_one_two_three
         
         
