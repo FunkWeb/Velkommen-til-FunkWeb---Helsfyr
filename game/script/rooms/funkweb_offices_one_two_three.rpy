@@ -1,99 +1,115 @@
 
 label funkweb_offices_one_two_three:
-    scene temp_offices_management with fade
+    scene expression Transform("images/rooms/temp_offices_management.webp", fit="cover", align=(0.5, 0.5)) with fade
 
-"Her sitter ledelsen. Du kan banke på hvis du trenger hjelp eller har spørsmål."
+    "Her sitter ledelsen. Du kan banke på hvis du trenger hjelp eller har spørsmål."
 
     # Vi må finne ut av hvem som sitter hvor før endelig plassering av personer.
 
-menu:
-    "Hvilket kontor vil du gå til?":
-        "Kontor 1 (Hans)":
-            jump funkweb_offices_one
+    "Hvilket kontor vil du gå til?"
 
-        "Kontor 2 (ukjent)":
-            jump funkweb_offices_two
+    menu:
+        "Kontoret til Laila":
+            jump office_laila
 
-        "Kontor 3 (ukjent)":
-            jump funkweb_offices_three
-
-        "Kontor: Jørgen og Sondre":
+        "Kontoret til Hans":
+            jump office_hans
+    
+        "Kontoret til Hans-Tore":
+            jump office_hans_tore
+        
+        "Kontoret til Jørgen og Sondre":
             jump jorgen_sondre_offices
 
         "Gå tilbake til kjøkkenet":
             jump kitchen
-
-        "Gå til samtalerom"
+        
+        "Gå til samtalerom":
             jump meetingrooms_three_above_offices_near_kitchen
-return
 
+
+label office_laila:
+    scene expression Transform("images/rooms/temp_offices_management.webp", fit="cover", align=(0.5, 0.5)) with fade
+    
+    laila "Her er mitt kontor. Jeg jobber som tiltaksansvarlig og HR-ansvarlig i FunkWeb."
+    
+    "Hvor vil du gå videre?"
+    
+    menu:
+        "Tilbake til ledelseskontorene":
+            jump funkweb_offices_one_two_three
+        
+        "Kontoret til Hans":
+            jump office_hans
+    
+        "Kontoret til Hans-Tore":
+            jump office_hans_tore
+            
+        "Kontor: Jørgen og Sondre":
+            jump jorgen_sondre_offices
+            
+        "Gå tilbake til kjøkkenet":
+            jump kitchen
+            
+        "Gå til samtalerom":
+            jump meetingrooms_three_above_offices_near_kitchen
+   
 
 label office_hans:
-    scene temp_office_hans with fade
-    show hans at right
+    scene expression Transform("images/rooms/temp_offices_management.webp", fit="cover", align=(0.5, 0.5)) with fade
+    
+    show expression Transform("images/characters/hans_welcome.webp", fit="contain", align=(1.0, 1.0)) at right with fade
 
     hans "Hei, jeg heter Hans."
     hans "Jeg driver med daglig drift, karriereveiledning, arbeidsinkludering, undervisning og opplæring."
     hans "Jeg deltar også i styrer og verv innen inkluderingskompetanse."
 
+    "Hvor vil du gå videre?"
+        
     menu:
-        "Hvor vil du gå videre?":
+        "Tilbake til ledelseskontorene":
+            jump funkweb_offices_one_two_three
 
-            "Tilbake til ledelseskontorene":
-                jump funkweb_offices_one_two_three
+        "Kontor til Laila":
+            jump office_laila
 
-            "Kontor 2 (ukjent)":
-                jump office_unknown_two
+        "Kontor til Hans-Tore":
+            jump office_hans_tore
 
-            "Kontor 3 (ukjent)":
-                jump office_unknown_three
+        "Kontor til Jørgen og Sondre":
+            jump jorgen_sondre_offices
 
-            "Kontor: Jørgen og Sondre":
-                jump jorgen_sondre_offices
-
-            "Gå tilbake til kjøkkenet":
-                jump kitchen
+        "Gå tilbake til kjøkkenet":
+            jump kitchen
                 
-            "Gå til samtalerom"
-            jump meetingrooms_three_above_offices_near_kitchen
-    return
-
-label office_unknown_two:
-    scene temp_office_unknown_two with fade
+        "Gå til samtalerom":
+        jump meetingrooms_three_above_offices_near_kitchen
     
 
-    menu:
-        "Hvor vil du gå videre?":
-            "Tilbake til ledelseskontorene":
-                jump funkweb_offices_one_two_three
-            "Kontor 1 (Hans)":
-                jump office_hans
-            "Kontor 3 (ukjent)":
-                jump office_unknown_three
-            "Kontor: Jørgen og Sondre":
-                jump jorgen_sondre_offices
-            "Gå tilbake til kjøkkenet":
-                jump kitchen
-            "Gå til samtalerom"
-            jump meetingrooms_three_above_offices_near_kitchen
-    return
 
-label office_unknown_three:
-    scene temp_office_unknown_three with fade
+
+label office_hans_tore:
+    scene expression Transform("images/rooms/temp_offices_management.webp", fit="cover", align=(0.5, 0.5)) with fade
     
+   hans-tore "Hei, jeg heter Hans-Tore og er fagansvarlig for alle lærlinger." 
    
-    menu:
-        "Hvor vil du gå videre?":
-            "Tilbake til ledelseskontorene":
-                jump funkweb_offices_one_two_three
-            "Kontor 1 (Hans)":
-                jump office_hans
-            "Kontor 2 (ukjent)":
-                jump office_unknown_two
-            "Kontor: Jørgen og Sondre":
-                jump jorgen_sondre_offices
-            "Gå tilbake til kjøkkenet":
-                jump kitchen
-            "Gå til samtalerom"
+   "Hvor vil du gå videre?"
+   
+   menu:
+       "Tilbake til ledelseskontorene":
+           jump funkweb_offices_one_two_three
+            
+        "Kontor til Hans":
+            jump office_hans
+            
+        "Kontor til Laila":
+            jump office_laila
+            
+        "Kontor: Jørgen og Sondre":
+            jump jorgen_sondre_offices
+            
+        "Gå tilbake til kjøkkenet":
+            jump kitchen
+            
+        "Gå til samtalerom":
             jump meetingrooms_three_above_offices_near_kitchen
-    return  
