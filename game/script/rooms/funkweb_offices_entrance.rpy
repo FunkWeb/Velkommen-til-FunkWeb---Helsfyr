@@ -15,7 +15,7 @@ label funkweb_offices_entrance:
             "Se på persongalleriet":
                 show screen character_gallery
             
-             "Gå til møterommet":
+            "Gå til møterommet":
                 jump meetingroom_blue
 
             "Gå til sosial-sone":

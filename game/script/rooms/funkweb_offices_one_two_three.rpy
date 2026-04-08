@@ -83,33 +83,32 @@ label office_hans:
             jump kitchen
                 
         "Gå til samtalerom":
-        jump meetingrooms_three_above_offices_near_kitchen
-    
+            jump meetingrooms_three_above_offices_near_kitchen
 
 
-
+ 
 label office_hans_tore:
     scene expression Transform("images/rooms/temp_offices_management.webp", fit="cover", align=(0.5, 0.5)) with fade
     
-   hans-tore "Hei, jeg heter Hans-Tore og er fagansvarlig for alle lærlinger." 
+hans-tore "Hei, jeg heter Hans-Tore og er fagansvarlig for alle lærlinger." 
    
-   "Hvor vil du gå videre?"
+"Hvor vil du gå videre?"
    
-   menu:
-       "Tilbake til ledelseskontorene":
-           jump funkweb_offices_one_two_three
+menu:
+    "Tilbake til ledelseskontorene":
+        jump funkweb_offices_one_two_three
             
-        "Kontor til Hans":
-            jump office_hans
+    "Kontor til Hans":
+        jump office_hans
             
-        "Kontor til Laila":
+    "Kontor til Laila":
             jump office_laila
             
-        "Kontor: Jørgen og Sondre":
-            jump jorgen_sondre_offices
+    "Kontor: Jørgen og Sondre":
+        jump jorgen_sondre_offices
             
-        "Gå tilbake til kjøkkenet":
-            jump kitchen
+    "Gå tilbake til kjøkkenet":
+        jump kitchen
             
-        "Gå til samtalerom":
-            jump meetingrooms_three_above_offices_near_kitchen
+    "Gå til samtalerom":
+        jump meetingrooms_three_above_offices_near_kitchen
