@@ -14,7 +14,22 @@ Målet med spillet er å gjøre det både enkelt og morsomt å bli kjent med rom
 
 ## Krav / Systemkrav
 > [!NOTE]
-> kommer senere
+> Operativsystem: Windows 10 eller nyere  
+- Prosessor: 2.0 GHz 64-bit Intel-kompatibel  
+- RAM: 2.0 GB  
+- Grafikk: OpenGL 3.0 eller DirectX 11  
+
+### macOS
+- Operativsystem: macOS 10.10 eller nyere  
+- Prosessor: 2.0 GHz 64/bit Intel-kompatibel eller Apple M1 eller nyere  
+- RAM: 2.0 GB  
+- Grafikk: OpenGL 3.0 
+
+### Linux
+- Operativsystem: Ubuntu 20.04 eller nyere  
+- Prosessor: 2.0 GHz 64-bit Intel-kompatibel  
+- RAM: 2.0 GB  
+- Grafikk: OpenGL 3.0
 
 ## Installasjon og kjøring
 > [!WARNING]
