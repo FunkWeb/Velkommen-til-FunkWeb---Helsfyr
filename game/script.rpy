@@ -8,8 +8,6 @@ define ingeborg = Character("Ingeborg")
 define jorgen = Character("Jørgen")
 define laila = Character("Laila")
 define eric = Character("Eric")
-
-
 define sondre = Character("Sondre")
 define simen = Character("Simen")
 # The game starts here.
