@@ -1,7 +1,7 @@
 
 label reception:
     # midlertidig bakgrunssbilder som starter med temp, må byttes med endelig bakgrunn.
-    scene temp_entrance_reception with fade
+    scene expression Transform("rooms/temp_entrance_reception.webp", fit="cover", align=(0.5, 0.5)) with fade
     "Her er er resepsjonen!"
     
     menu reception_menu:
