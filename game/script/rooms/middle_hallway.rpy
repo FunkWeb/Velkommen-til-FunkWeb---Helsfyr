@@ -3,7 +3,7 @@ label middle_hallway:
     
     scene expression Transform("images/rooms/temp_middle_hallway.webp", fit="cover", align=(0.5, 0.5)) with fade
     
-        "Her er det et stort fint bord hvor man kan sitte sammen, og et garderobeskap hvor man kan henge fra seg ting."
+    "Her er det et stort fint bord hvor man kan sitte sammen, og et garderobeskap hvor man kan henge fra seg ting."
     
     show person trine_lise expression Transform("images/characters/trine_lise_smiling.webp", fit="contain", size(600, 1400), align=(0.5, 0.5)) at right with fade
     
