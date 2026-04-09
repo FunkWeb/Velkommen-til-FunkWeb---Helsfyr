@@ -90,7 +90,7 @@ label office_hans:
 label office_hans_tore:
     scene expression Transform("images/rooms/temp_offices_management.webp", fit="cover", align=(0.5, 0.5)) with fade
     
-hans_tore "Hei, jeg heter Hans-Tore og er fagansvarlig for alle lærlinger." 
+hans_tore "Hei, jeg heter Hans Tore og er fagansvarlig for alle lærlinger." 
    
 "Hvor vil du gå videre?"
    
