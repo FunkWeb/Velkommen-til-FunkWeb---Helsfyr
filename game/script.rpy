@@ -3,28 +3,38 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+
 define ingeborg = Character("Ingeborg")
 define jorgen = Character("Jørgen")
 define laila = Character("Laila")
 define eric = Character("Eric")
-define sondre = Character("Sondre")
 define simen = Character("Simen")
+define johnny = Character("Johnny")
+define hans = Character("Hans")
+define hans_tore = Character("Hans Tore")
+define kristin = Character("Kristin")
+define espen = Character("Espen")
+define ingunn = Character("Ingunn")
+define geir = Character("Geir")
+define reidar = Character("Reidar")
+define trine_lise = Character("Trine-Lise")
+define liv = Character("Liv")
+define sondre = Character("Sondre")
 # The game starts here.
 
 label start:
-
+ jump outside_entrance
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    
 
     # These display lines of dialogue.
 
@@ -38,4 +48,4 @@ label start:
 
     # This ends the game.
 
-    return
+ return
