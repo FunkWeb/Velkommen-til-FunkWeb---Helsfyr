@@ -6,12 +6,12 @@ label reception:
     
     menu reception_menu:
         "Funkweb holder til i 5. etasje, og det er også en kantine her"
-        "\"Hvor er trappene?\"":
+        "Hvor er trappene?":
             scene temp_entrance_staircase with fade 
             "Du finner trapper her"
             jump reception
-        "\"Hvor er heisen?\"":
-            scene temp_entrance_hall_elevator with fade 
+        "Hvor er heisen?":
+            scene expression Transform("rooms/temp_entrance_hall_elevator.webp", fit="cover", align=(0.5, 0.5)) with fade
             "Heisen finner du her"
             jump reception
         "Ta meg opp til Funkweb i 5. etasje":
