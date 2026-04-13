@@ -1,9 +1,9 @@
 
 label canteen:
     # midlertidig bakgrunssbilder, må byttes med endelig bakgrunn.
-    scene temp_canteen_entrance with fade 
+    scene expression Transform("images/rooms/temp_canteen_entrance.webp", fit="cover", align=(0.5, 0.5)) with fade 
     pause 1
-    scene temp_canteen_overview with fade 
+    scene expression Transform("images/rooms/temp_canteen_overview.webp", fit="cover", align=(0.5, 0.5)) with fade
     
     "Kantina er et sosialt samlingspunkt hvor man kan spise lunsj, ta pauser og bli kjent med kollegaer."
 
