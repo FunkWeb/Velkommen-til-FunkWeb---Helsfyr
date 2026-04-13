@@ -1,7 +1,6 @@
 
 label meetingroom_blue:
-    scene temp_meetingroom_blue with fade 
-
+    scene expression Transform("images/rooms/temp_meetingroom_blue.webp", fit="cover", align=(0.5, 0.5)) with fade
     "Dette er det største møterommet, her holdes det markedsføringsmøter, Funksoftmøter og kurs."
     
     show ingeborg_serious at left

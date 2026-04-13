@@ -1,8 +1,7 @@
 
 label social_room:
     # midlertidig bakgrunssbilde som starter med temp, må byttes med endelig bakgrunn.
-    scene temp_social_zone
-
+    scene expression Transform("images/rooms/temp_social_zone.webp", fit="cover", align=(0.5, 0.5)) with fade
     "Her kan du sosialisere og ta deg en pause sammen med de andre på huset. "
     
     show laila_smiling at left 
