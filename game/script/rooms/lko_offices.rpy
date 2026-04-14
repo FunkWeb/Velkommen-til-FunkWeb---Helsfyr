@@ -4,14 +4,14 @@ label lko_offices:
     
     "Dette er arbeidsplassen til lærekandidatene."
     
-    show expression Transform("hans_tore_smiling_one", zoom=0.25, xalign=0.9, yalign=-0.54) with fade 
+    show expression Transform("images/characters/hans_tore_smiling_one.webp", fit="contain", align=(1.0, 1.0)) at right with fade
     
     hans_tore "Hei, jeg heter Hans Tore og jeg er fagansvarlig for alle lærlinger og lærekandidater som er hos oss innen IT-Driftsfaget og IT-Utviklerfaget."
     
     "Hvor vil du gå videre?"
     
     menu:
-        "Gå tilbake til AFT veileder kontor":
+        "Gå tilbake til AFT-veileder kontoret":
             jump aft_offices
             
         "Gå til AFT-kandidatene sin arbeidsplass":

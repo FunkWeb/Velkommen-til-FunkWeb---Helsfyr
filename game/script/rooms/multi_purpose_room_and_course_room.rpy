@@ -4,14 +4,15 @@ label multi_purpose_room_and_course_room:
 
     "Dette er det andre møterommet. Her er det plass for flere personer. Her holdes det kurs, møter og du kan jobbe sammen i større grupper."
     
-    show expression Transform("eric_posing", zoom=0.25, xalign=0.1, yalign=-0.54) with fade 
+    show eric_posing at left
+
     eric "Hei! Jeg heter Eric, og er veileder."
     eric "Jeg forsøker å få kandidatene våre inn i markedsgruppen for Sportsmate og FunkWeb, og holder noen lynkurs."
     eric "Og fotokurs."
 
     menu:
         "Hvor vil du gå?"
-        "til sosial sone":
+        "til sosial-sone":
             jump social_room
         "til kjøkkenet":
             jump kitchen
