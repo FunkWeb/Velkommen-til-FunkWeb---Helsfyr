@@ -25,5 +25,6 @@ label reception:
             
         "Ta meg til kantina":
             jump canteen
+            
         "Gå ut":
             jump outside_entrance
