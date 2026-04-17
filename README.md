@@ -47,22 +47,22 @@ For å kunne teste dette prosjektet lokalt:
 ## Teknologier og verktøy brukt
 > [!NOTE]
 > Merk: Informasjon om lydverktøy og lydbehandlig legges til senere
-  
-  Spillutvikling
-    *Ren'Py versjon 8.5.2* – spillmotoren prosjektet er bygget i.  
-    *Python versjon 3.12* – innebygd Python-versjon som Ren'Py 8.5.2 bruker til all logikk, tilstandshåndtering og skripting i .rpy -filer.
-    *Visual Studio Code versjon 1.113.0* – hovedverktøy for utvikling og redigering av prosjektfiler.  
 
-  Bilder og grafikk
-    *iPhone og Android‑mobilkamera* – brukt til å ta bilder av ansatte og lokaler.  
-    *Photoshop versjon 2025* – redigering, beskjæring og optimalisering av enkelte bilder.   
-    *Image Converter* – alle bilder er konvertert til WebP og komprimert for å redusere filstørrelse og forbedre lastetid. 
-    *Studio-lys LED-belysning* – brukt for jevn lyssetting, redusert skygge og bedre bildekvalitet ved fotografering av personer.
+### Spillutvikling
+- Ren’Py 8.5.2 – spillmotor  
+- Python 3.12 – logikk og scripting  
 
-  Prosjektstyring og versjonskontroll
-    *Git & GitHub* – versjonskontroll, branches og samarbeid.  
-    *GitHub Issues / Projects* – oppgavehåndtering og dokumentasjon.  
-    *Asana* – planlegging, koordinering og prosjektstyring.  
+### Utviklingsverktøy
+- Visual Studio Code 1.113.0 – hovededitor  
+- Git & GitHub – versjonskontroll  
+- GitHub Issues – feilrapportering og oppgavestyring  
+- Asana – prosjektplanlegging og koordinering  
+
+### Grafikk og media
+- iPhone / Android kamera – bilder av ansatte og lokaler  
+- Photoshop 2025 – bildebehandling og optimalisering  
+- Bildekomprimering og WebP-konvertering – for bedre ytelse  
+- Studio LED-lys – jevn belysning og bedre bildekvalitet  
 
 
 ## Ressurser og Credits
