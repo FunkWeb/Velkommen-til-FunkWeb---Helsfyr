@@ -1,14 +1,11 @@
 
 
-
-
 label reception:
     # midlertidig bakgrunssbilder som starter med temp, må byttes med endelig bakgrunn.
     scene expression Transform("rooms/temp_entrance_reception.webp", fit="cover", align=(0.5, 0.5)) with fade
-    "Her er er resepsjonen!"
-    
-    menu reception_menu:
-        "Funkweb holder til i 5. etasje, og det er også en kantine her"
+    "Her er resepsjonen!"
+    "Funkweb holder til i 5. etasje, og det er også en kantine her"
+    menu:
         
         "Hvor er trappene?":
             scene expression Transform("bg/temp_staircase.webp", fit="cover", align=(0.5, 0.5)) with fade
