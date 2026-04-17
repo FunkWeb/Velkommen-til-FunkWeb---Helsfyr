@@ -1,7 +1,7 @@
 # Spill9: Velkommen til FunkWeb - Helsfyr
 
 ## Om spillet
-**Velkommen til FunkWeb – Helsfyr er et interaktivt Ren’Py-spill utviklet for å gi en enkel og engasjerende introduksjon til de nye lokalene på Helsfyr.
+**Velkommen til FunkWeb – Helsfyr** er et interaktivt Ren’Py-spill utviklet for å gi en enkel og engasjerende introduksjon til de nye lokalene på Helsfyr.
 
 Spillet lar deg utforske bygget rom for rom, inkludert møterom, veilederkontor, kjøkken, sosiale soner og arbeidsplasser for både LKO- og AFT-kandidater.
 
