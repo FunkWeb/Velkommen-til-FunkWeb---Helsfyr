@@ -14,8 +14,9 @@ Målet med spillet er å gjøre det enkelt, intuitivt og engasjerende å bli kje
 > kommer senere
 
 ## Krav / Systemkrav
-> [!NOTE]
-> Operativsystem: Windows 10 eller nyere  
+
+### Windows
+- Operativsystem: Windows 10 eller nyere  
 - Prosessor: 2.0 GHz 64-bit Intel-kompatibel  
 - RAM: 2.0 GB  
 - Grafikk: OpenGL 3.0 eller DirectX 11  
