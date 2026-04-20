@@ -38,7 +38,7 @@ Målet med spillet er å gjøre det både enkelt og morsomt å bli kjent med rom
 For å kunne teste prosjektet lokalt:
 
 1. Last ned alle filer fra dette repositoriet  
-2. Last ned og installer Ren’Py 8.5.2  
+2. Last ned og installer [Ren’Py 8.5.2](https://www.renpy.org/latest.html)  
 3. Plasser hele repository-mappen i Ren’Py-mappen  
 
 Avhengig av operativsystem (se Ren’Py Quickstart for mer detaljert veiledning):
