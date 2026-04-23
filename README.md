@@ -1,16 +1,37 @@
 # Spill9: Velkommen til FunkWeb - Helsfyr
 
 ## Om spillet
-> [!NOTE]
-> kommer senere
+**Velkommen til FunkWeb – Helsfyr** er et interaktivt Ren’Py-spill utviklet for å gi en enkel og engasjerende introduksjon til de nye lokalene på Helsfyr.
+
+Spillet lar deg utforske bygget rom for rom, inkludert møterom, veilederkontor, kjøkken, sosiale soner og arbeidsplasser for både LKO- og AFT-kandidater.
+
+Underveis møter du ansatte i ulike roller, hvor hver karakter presenteres gjennom korte dialoger som beskriver hvem de er og hva de jobber med. Spillet inneholder også et bildegalleri som gir oversikt over alle ansatte i bygget, slik at nye brukere lettere kan bli kjent med menneskene i FunkWeb.
+
+Målet med spillet er å gjøre det enkelt, intuitivt og engasjerende å bli kjent med både lokaler, miljø og ansatte i FunkWeb Helsfyr.
 
 ## Skjermbilder
 > [!NOTE]
 > kommer senere
 
 ## Krav / Systemkrav
-> [!NOTE]
-> kommer senere
+
+### Windows
+- Operativsystem: Windows 10 eller nyere  
+- Prosessor: 2.0 GHz 64-bit Intel-kompatibel  
+- RAM: 2.0 GB  
+- Grafikk: OpenGL 3.0 eller DirectX 11  
+
+### macOS
+- Operativsystem: macOS 10.10 eller nyere  
+- Prosessor: 2.0 GHz 64/bit Intel-kompatibel eller Apple M1 eller nyere  
+- RAM: 2.0 GB  
+- Grafikk: OpenGL 3.0 
+
+### Linux
+- Operativsystem: Ubuntu 20.04 eller nyere  
+- Prosessor: 2.0 GHz 64-bit Intel-kompatibel  
+- RAM: 2.0 GB  
+- Grafikk: OpenGL 3.0
 
 ## Installasjon og kjøring
 > [!WARNING]
@@ -27,7 +48,24 @@ For å kunne teste dette prosjektet lokalt:
 
 ## Teknologier og verktøy brukt
 > [!NOTE]
-> kommer senere
+> Merk: Informasjon om lydverktøy og lydbehandlig legges til senere
+
+### Spillutvikling
+- Ren’Py 8.5.2 – spillmotor  
+- Python 3.12 – logikk og scripting  
+
+### Utviklingsverktøy
+- Visual Studio Code 1.113.0 – hovededitor  
+- Git & GitHub – versjonskontroll  
+- GitHub Issues – feilrapportering og oppgavestyring  
+- Asana – prosjektplanlegging og koordinering  
+
+### Grafikk og media
+- iPhone / Android kamera – bilder av ansatte og lokaler  
+- Photoshop 2025 – bildebehandling og optimalisering  
+- Bildekomprimering og WebP-konvertering – for bedre ytelse  
+- Studio LED-lys – jevn belysning og bedre bildekvalitet  
+
 
 ## Ressurser og Credits
 > [!NOTE]
