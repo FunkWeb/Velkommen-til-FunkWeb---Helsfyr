@@ -7,7 +7,6 @@ label aft_candidate_work_area:
 
     show expression Transform("simen_smiling", zoom=0.25, xalign=0.9, yalign=-0.54) with fade 
     
-
     simen "Hei! Jeg heter Simen og er jobbveileder, og prosjektleder for både lærekandidatene og i internasjonale prosjekter."
     simen "Jeg har mange roller i FunkWeb og har vært med på det meste her i snart 10 år."
     simen "Jeg elsker like mye å få til gode samarbeid med arbeidsgiver og kandidat som det å teste produktene til Sportsmate." 
