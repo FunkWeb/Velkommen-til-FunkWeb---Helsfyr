@@ -4,7 +4,7 @@ label social_room:
     scene expression Transform("images/rooms/temp_social_zone.webp", fit="cover", align=(0.5, 0.5)) with fade
     "Her kan du sosialisere og ta deg en pause sammen med de andre på huset. "
     
-    show laila_smiling at left 
+    show expression Transform("images/characters/laila_smiling.webp", zoom=0.25, xalign=0.1, yalign=-0.54) with fade 
 
     laila "Hei, jeg heter Laila." 
     laila "Jeg er Tiltaksansvarlig og HR-ansvarlig i FunkWeb." 

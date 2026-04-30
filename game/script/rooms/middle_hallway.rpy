@@ -5,7 +5,7 @@ label middle_hallway:
     
     "Her er det et stort fint bord hvor man kan sitte sammen, og et garderobeskap hvor man kan henge fra seg ting."
     
-    show person trine_lise expression Transform("images/characters/trine_lise_smiling.webp", fit="contain", size(600, 1400), align=(0.5, 0.5)) at right with fade
+    show expression Transform("trine_lise_smiling", zoom=0.25, xalign=0.9, yalign=-0.54) with fade
     
     trine_lise "Jeg er Trine-Lise og har hatt gleden av å jobbe i FunkWeb siden 2013." 
     trine_lise "Har jobbet på flere typer tiltak og nå AFT." 
