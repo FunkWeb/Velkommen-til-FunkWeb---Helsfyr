@@ -5,7 +5,7 @@ label funkweb_offices_entrance:
 
 
 
-
+  
 
     johnny "Hei, jeg er Johnny. Jeg er veileder her på FunkWeb og jobber i AFT: arbeidforberedende tiltak." 
     johnny "Jeg elsker å prate om film, så hvis du ønsker å nerde litt om det, er jeg alltid positiv til det." 
