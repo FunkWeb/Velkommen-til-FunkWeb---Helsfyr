@@ -1,7 +1,7 @@
 
 label meetingroom_blue:
     scene expression Transform("images/rooms/temp_meetingroom_blue.webp", fit="cover", align=(0.5, 0.5)) with fade
-    "Dette er det største møterommet, her holdes det markedsføringsmøter, FunkSoft-møter og kurs."
+    "Dette er det største møterommet, her holdes det markedsføringsmøter, Funksoftmøter og kurs."
     
     show expression Transform("images/characters/ingeborg_serious.webp", zoom=0.25, xalign=0.1, yalign=-0.54) with fade
     ingeborg "Hei. Jeg heter Ingeborg og er jobbveileder og prosjektleder i FunkSoft." 
@@ -20,5 +20,5 @@ label meetingroom_blue:
         "Hvor vil du gå?"
         "sosial-sone":
             jump social_room
-        "kjøkkenet":
+        "kjøkkenområdet":
             jump kitchen

@@ -15,7 +15,7 @@ label social_room:
     # videre inn i lokalet har ukjent scenenavn. må legges til.
     menu: 
         "Hvor vil du gå?"
-        "kjøkkenet":
+        "kjøkken":
             jump kitchen
         "til det største møterommet":
             jump meetingroom_blue
