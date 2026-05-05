@@ -1,20 +1,22 @@
 # Spill9: Velkommen til FunkWeb - Helsfyr
 
 ## Om spillet
-> [!NOTE]
-> **Velkommen til FunkWeb – Helsfyr** er et interaktivt Ren’Py‑spill laget for å gi en enkel og engasjerende introduksjon til de nye lokalene på Helsfyr. Spillet lar deg utforske bygget rom for rom, inkludert møterom, veilederkontor, kjøkken, sosiale soner og arbeidsplasser for både LKO- og AFT‑kandidater.
+**Velkommen til FunkWeb – Helsfyr** er et interaktivt Ren’Py-spill utviklet for å gi en enkel og engasjerende introduksjon til de nye lokalene på Helsfyr.
 
-Underveis møter du ansatte fra ulike roller og får korte replikkbaserte beskrivelser av hvem de er og hva de jobber med. Spillet inneholder også et bildegalleri som viser alle ansatte i bygget, slik at nye brukere lettere kan bli kjent med menneskene bak FunkWeb.
+Spillet lar deg utforske bygget rom for rom, inkludert møterom, veilederkontor, kjøkken, sosiale soner og arbeidsplasser for både LKO- og AFT-kandidater.
 
-Målet med spillet er å gjøre det både enkelt og morsomt å bli kjent med rommene, miljøet og folkene som utgjør FunkWeb Helsfyr.
+Underveis møter du ansatte i ulike roller, hvor hver karakter presenteres gjennom korte dialoger som beskriver hvem de er og hva de jobber med. Spillet inneholder også et bildegalleri som gir oversikt over alle ansatte i bygget, slik at nye brukere lettere kan bli kjent med menneskene i FunkWeb.
+
+Målet med spillet er å gjøre det enkelt, intuitivt og engasjerende å bli kjent med både lokaler, miljø og ansatte i FunkWeb Helsfyr.
 
 ## Skjermbilder
 > [!NOTE]
 > kommer senere
 
 ## Krav / Systemkrav
-> [!NOTE]
-> Operativsystem: Windows 10 eller nyere  
+
+### Windows
+- Operativsystem: Windows 10 eller nyere  
 - Prosessor: 2.0 GHz 64-bit Intel-kompatibel  
 - RAM: 2.0 GB  
 - Grafikk: OpenGL 3.0 eller DirectX 11  
@@ -47,22 +49,22 @@ For å kunne teste dette prosjektet lokalt:
 ## Teknologier og verktøy brukt
 > [!NOTE]
 > Merk: Informasjon om lydverktøy og lydbehandlig legges til senere
-  
-  Spillutvikling
-    *Ren'Py versjon 8.5.2* – spillmotoren prosjektet er bygget i.  
-    *Python versjon 3.12* – innebygd Python-versjon som Ren'Py 8.5.2 bruker til all logikk, tilstandshåndtering og skripting i .rpy -filer.
-    *Visual Studio Code versjon 1.113.0* – hovedverktøy for utvikling og redigering av prosjektfiler.  
 
-  Bilder og grafikk
-    *iPhone og Android‑mobilkamera* – brukt til å ta bilder av ansatte og lokaler.  
-    *Photoshop versjon 2025* – redigering, beskjæring og optimalisering av enkelte bilder.   
-    *Image Converter* – alle bilder er konvertert til WebP og komprimert for å redusere filstørrelse og forbedre lastetid. 
-    *Studio-lys LED-belysning* – brukt for jevn lyssetting, redusert skygge og bedre bildekvalitet ved fotografering av personer.
+### Spillutvikling
+- Ren’Py 8.5.2 – spillmotor  
+- Python 3.12 – logikk og scripting  
 
-  Prosjektstyring og versjonskontroll
-    *Git & GitHub* – versjonskontroll, branches og samarbeid.  
-    *GitHub Issues / Projects* – oppgavehåndtering og dokumentasjon.  
-    *Asana* – planlegging, koordinering og prosjektstyring.  
+### Utviklingsverktøy
+- Visual Studio Code 1.113.0 – hovededitor  
+- Git & GitHub – versjonskontroll  
+- GitHub Issues – feilrapportering og oppgavestyring  
+- Asana – prosjektplanlegging og koordinering  
+
+### Grafikk og media
+- iPhone / Android kamera – bilder av ansatte og lokaler  
+- Photoshop 2025 – bildebehandling og optimalisering  
+- Bildekomprimering og WebP-konvertering – for bedre ytelse  
+- Studio LED-lys – jevn belysning og bedre bildekvalitet  
 
 
 ## Ressurser og Credits
