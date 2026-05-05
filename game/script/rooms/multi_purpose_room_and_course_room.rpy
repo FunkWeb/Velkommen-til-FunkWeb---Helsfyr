@@ -11,7 +11,7 @@ label multi_purpose_room_and_course_room:
 
     menu:
         "Hvor vil du gå?"
-        "til sosial sone":
+        "til sosial-sone":
             jump social_room
         "til kjøkkenet":
             jump kitchen

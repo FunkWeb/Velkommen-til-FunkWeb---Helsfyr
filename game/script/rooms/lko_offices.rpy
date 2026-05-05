@@ -11,7 +11,7 @@ label lko_offices:
     "Hvor vil du gå videre?"
     
     menu:
-        "Gå tilbake til AFT veileder kontor":
+        "Gå tilbake til AFT-veileder kontoret":
             jump aft_offices
             
         "Gå til AFT-kandidatene sin arbeidsplass":
