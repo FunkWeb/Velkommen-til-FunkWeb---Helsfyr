@@ -9,4 +9,9 @@ menu:
         jump reception
     "Gå til sosialsona":
         jump social_room
+    "Gå til kjøkkenet":
+        jump kitchen
+    "Gå til møterommet":
+        jump meetingroom_blue
+    
 return
