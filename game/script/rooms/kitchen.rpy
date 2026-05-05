@@ -1,4 +1,3 @@
-
 label kitchen:
     scene expression Transform("images/rooms/temp_kitchen_overview.webp", fit="cover", align=(0.5, 0.5)) with fade
     # hvis person skal implementeres
@@ -18,9 +17,14 @@ label kitchen:
             jump social_room
         "toalettene":
             jump toilets
-        # "videre inn i lokalet":
-        #    jump scene_for_videre_i_lokalet
         "til det største møterommet":
             jump meetingroom_blue
         "inngangspartiet":
             jump funkweb_offices_entrance
+        # vei inover i lokalet 
+        "mellomgangen":
+            jump middle_hallway
+        #er ikke sikker på hva dette er ment for, men sletter det ikke for nå
+         # "videre inn i lokalet":
+        #    jump scene_for_videre_i_lokalet
+
