@@ -1,4 +1,3 @@
-
 label kitchen:
     scene expression Transform("images/rooms/temp_kitchen_overview.webp", fit="cover", align=(0.5, 0.5)) with fade
     # hvis person skal implementeres
