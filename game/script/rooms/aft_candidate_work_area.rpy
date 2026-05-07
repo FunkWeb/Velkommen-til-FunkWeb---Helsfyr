@@ -1,5 +1,6 @@
 label aft_candidate_work_area:
-    scene expression Transform("images/rooms/temp_workspace_aft.webp", fit="cover", align=(0.5, 0.5)) with fade
+
+    scene temp_workspace_aft with fade
 
     "Her sitter AFT kandidatene. Her kan du booke deg en plass og jobbe med prosjekter, skrive CV, jobbsøknader, eller kanskje ta noen onlinekurs."
     "Du kan reservere plass på booking.FunkWeb.no"
