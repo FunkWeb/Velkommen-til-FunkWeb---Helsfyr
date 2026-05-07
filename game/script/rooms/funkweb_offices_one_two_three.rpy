@@ -45,7 +45,7 @@ label office_laila:
         "Kontoret til Hans-Tore":
             jump office_hans_tore
             
-        "Kontoret til Jørgen og Sondre":
+        "Kontor: Jørgen og Sondre":
             jump jorgen_sondre_offices
             
         "Gå tilbake til kjøkkenet":
@@ -70,13 +70,13 @@ label office_hans:
         "Tilbake til ledelseskontorene":
             jump funkweb_offices_one_two_three
 
-        "Kontoret til Laila":
+        "Kontor til Laila":
             jump office_laila
 
-        "Kontoret til Hans-Tore":
+        "Kontor til Hans-Tore":
             jump office_hans_tore
 
-        "Kontoret til Jørgen og Sondre":
+        "Kontor til Jørgen og Sondre":
             jump jorgen_sondre_offices
 
         "Gå tilbake til kjøkkenet":

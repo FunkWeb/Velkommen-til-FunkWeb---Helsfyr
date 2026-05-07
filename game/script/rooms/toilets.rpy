@@ -2,7 +2,7 @@ label toilets:
 
 scene expression Transform("rooms/bathrooms.webp", fit="cover", align=(0.5, 0.5))
 
-"Her har vi et stort HC-toalett og to andre toaletter."
+"Her har vi 1 stort HC-toalett og 2 andre toaletter."
 
 menu:
     "Gå til sosial-sone":
