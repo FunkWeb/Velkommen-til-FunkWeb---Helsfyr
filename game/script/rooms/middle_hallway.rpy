@@ -2,7 +2,6 @@
 label middle_hallway:
     
     scene expression Transform("images/rooms/temp_middle_hallway.webp", fit="cover", align=(0.5, 0.5)) with fade
-    
     "Her er det et stort fint bord hvor man kan sitte sammen, og et garderobeskap hvor man kan henge fra seg ting."
     
     show expression Transform("trine_lise_smiling", zoom=0.25, xalign=0.9, yalign=-0.54) with fade
