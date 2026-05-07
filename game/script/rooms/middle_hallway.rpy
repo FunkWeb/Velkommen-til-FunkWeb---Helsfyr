@@ -16,7 +16,7 @@ label middle_hallway:
     
     menu:
         "Gå tilbake til AFT-veileder kontoret":
-            jump aft_office
+            jump aft_offices
             
         "Gå til lærekandidatene sin arbeidsplass":
             jump lko_offices
