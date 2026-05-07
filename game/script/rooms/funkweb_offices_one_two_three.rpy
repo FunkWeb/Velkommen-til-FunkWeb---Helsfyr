@@ -31,6 +31,7 @@ label funkweb_offices_one_two_three:
 label office_laila:
     scene expression Transform("images/rooms/temp_offices_management.webp", fit="cover", align=(0.5, 0.5)) with fade
     
+    show expression Transform("images/characters/laila_smiling.webp", zoom=0.25, xalign=0.9, yalign=-0.54) with fade
     laila "Her er mitt kontor. Jeg jobber som tiltaksansvarlig og HR-ansvarlig i FunkWeb."
     
     "Hvor vil du gå videre?"
