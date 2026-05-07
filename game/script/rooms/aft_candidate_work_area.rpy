@@ -28,5 +28,5 @@ label aft_candidate_work_area:
         # "tilbake til mellomgangen":
         #    jump scene_mellomgang
         "tilbake til lko-området":
-            jump lko
+            jump lko_offices
         
