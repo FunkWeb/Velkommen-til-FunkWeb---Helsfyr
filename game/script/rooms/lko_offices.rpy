@@ -6,17 +6,17 @@ label lko_offices:
     
     show expression Transform("hans_tore_smiling_one", zoom=0.25, xalign=0.9, yalign=-0.54) with fade 
     
-    hans_tore "Hei, jeg heter Hans Tore og jeg er fagansvarlig for alle lærlinger og lærekandidater som er hos oss innen IT-Driftsfaget og IT-Utviklerfaget."
+    hans_tore "Hei, jeg heter Hans Tore og jeg er fagansvarlig for lærekandidatene som er hos oss innen IT-Driftsfaget og IT-Utviklerfaget."
     
     "Hvor vil du gå videre?"
     
     menu:
-        "Gå tilbake til AFT veileder kontor":
+        "Gå til veilederkontoret":
             jump aft_offices
             
         "Gå til AFT-kandidatene sin arbeidsplass":
             jump aft_candidate_work_area
             
-        #"Gå tilbake til mellomgangen":
+        #"Gå til mellomgangen":
             #jump middle_hallway
                 
