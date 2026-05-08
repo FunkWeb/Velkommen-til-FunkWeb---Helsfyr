@@ -18,18 +18,18 @@ label kitchen:
     # videre inn i lokalet har ukjent scenenavn. må legges til.
     menu: 
         "Hvor vil du gå?"
-        "sosial sone":
+        "Sosialsona":
             jump social_room
-        "toalettene":
+        "Toalettene":
             jump toilets
-        "til det største møterommet":
+        "Til det største møterommet":
             jump meetingroom_blue
-        "inngangspartiet":
+        "Inngangspartiet":
             jump funkweb_offices_entrance
         # vei inover i lokalet 
-        "mellomgangen":
+        "Mellomgangen":
             jump middle_hallway
         #er ikke sikker på hva dette er ment for, men sletter det ikke for nå
-         # "videre inn i lokalet":
+         # "Videre inn i lokalet":
         #    jump scene_for_videre_i_lokalet
 
