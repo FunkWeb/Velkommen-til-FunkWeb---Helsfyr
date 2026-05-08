@@ -7,7 +7,7 @@ label funkweb_offices_entrance:
 
   
 
-    johnny "Hei, jeg er Johnny. Jeg er veileder her på funkweb og jobber i AFT: arbeidforberedende tiltak." 
+    johnny "Hei, jeg er Johnny. Jeg er veileder her på FunkWeb og jobber i AFT: Arbeidforberedende tiltak." 
     johnny "Jeg elsker å prate om film, så hvis du ønsker å nerde litt om det, er jeg alltid positiv til det." 
     johnny "Jeg snakker også flytende spansk."
     johnny "La meg vise deg rundt."
@@ -23,13 +23,13 @@ label .choice_menu:
             "Gå til møterommet":
                 jump meetingroom_blue
 
-            "Gå til sosial-sone":
+            "Gå til sosialsona":
                 jump social_room
 
             "Gå til kjøkkenområdet":
                 jump kitchen
 
-            "Gå tilbake til inngangen til Funkweb":
+            "Gå tilbake til inngangen til FunkWeb":
                 jump upper_entrance
 
             
