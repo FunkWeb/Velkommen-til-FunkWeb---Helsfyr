@@ -11,15 +11,15 @@ label multi_purpose_room_and_course_room:
 
     menu:
         "Hvor vil du gå?"
-        "til sosial sone":
+        "Til sosialsona":
             jump social_room
-        "til kjøkkenet":
+        "Til kjøkkenet":
             jump kitchen
-        "til toalettene":
+        "Til toalettene":
             jump toilets
-        "til det største møterommet":
+        "Til det største møterommet":
             jump meetingroom_blue
-        "til inngangspartiet":
+        "Til inngangspartiet":
             jump funkweb_offices_entrance
 
 return
