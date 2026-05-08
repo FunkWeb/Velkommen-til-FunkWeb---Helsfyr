@@ -3,8 +3,8 @@
 label reception:
     # midlertidig bakgrunssbilder som starter med temp, må byttes med endelig bakgrunn.
     scene expression Transform("rooms/temp_entrance_reception.webp", fit="cover", align=(0.5, 0.5)) with fade
-    "Her er resepsjonen!"
-    "Funkweb holder til i 5. etasje, og det er også en kantine her"
+    "Her er resepsjonen."
+    "FunkWeb holder til i 5. etasje, og det er også en kantine her."
     menu:
         
         "Hvor er trappene?":
@@ -20,7 +20,7 @@ label reception:
             "Heisen finner du her"
             jump reception
             
-        "Ta meg opp til Funkweb i 5. etasje":
+        "Ta meg opp til FunkWeb i 5. etasje":
             jump upper_entrance
             
         "Ta meg til kantina":
