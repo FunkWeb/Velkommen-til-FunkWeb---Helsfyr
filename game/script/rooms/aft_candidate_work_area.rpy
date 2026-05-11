@@ -11,22 +11,22 @@ label aft_candidate_work_area:
     simen "Jeg har mange roller i FunkWeb og har vært med på det meste her i snart 10 år."
     simen "Jeg elsker like mye å få til gode samarbeid med arbeidsgiver og kandidat som det å teste produktene til Sportsmate." 
 
-    # følgende har ukjent scenenavn og må legges til. 
-    # scene_for_nest_største_møterommet, scene_for_mindre_møterommet, scene_sportsmate_lager og scene_mellomgang
     menu: 
         "Hvor vil du gå?"
-        "Sosialsona":
-            jump social_room
-        "Toalettene":
-            jump kitchen
         # "Til det nest største møterommet":
         #    jump scene_for_nest_største_møterommet
         # "Til et mindre møterom":
         #    jump scene_for_mindre_møterommet
         # "Til Sportsmate-lageret":
         #    jump scene_sportsmate_lager
-        # "Tilbake til mellomgangen":
-        #    jump scene_mellomgang
+
+        # Kan eventuelt endres til "Gå til det nest største møterommet"
+        "Gå til møterom 8":
+            jump multi_purpose_room_and_course_room
+
+        "Tilbake til mellomgangen":
+            jump middle_hallway
+
         "Tilbake til LKO-området":
             jump lko_offices
         
