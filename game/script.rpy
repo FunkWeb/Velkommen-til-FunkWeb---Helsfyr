@@ -1,4 +1,4 @@
-﻿# The script of the game goes in this file.
+﻿﻿# The script of the game goes in this file.
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
@@ -127,7 +127,6 @@ style vscrollbar:
     hover_thumb Solid("#00fc00") 
     unscrollable "hide"
 
-
 define ingeborg = Character("Ingeborg")
 define jorgen = Character("Jørgen")
 define laila = Character("Laila")
@@ -162,7 +161,7 @@ jump outside_entrance
 
     # These display lines of dialogue.
 
-   
+
     # This ends the game.
 
 return

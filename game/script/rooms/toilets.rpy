@@ -1,4 +1,3 @@
-
 label toilets:
 
 scene expression Transform("rooms/bathrooms.webp", fit="cover", align=(0.5, 0.5))
@@ -8,6 +7,11 @@ scene expression Transform("rooms/bathrooms.webp", fit="cover", align=(0.5, 0.5)
 menu:
     "Gå tilbake til resepjsonen":
         jump reception
-    "Gå til sosial-sone":
+    "Gå til sosialsona":
         jump social_room
+    "Gå til kjøkkenet":
+        jump kitchen
+    "Gå til møterommet":
+        jump meetingroom_blue
+    
 return
