@@ -19,14 +19,14 @@ label aft_candidate_work_area:
             jump social_room
         "Toalettene":
             jump kitchen
-        # "til det nest største møterommet":
+        # "Til det nest største møterommet":
         #    jump scene_for_nest_største_møterommet
-        # "til det mindre møterommet":
+        # "Til et mindre møterom":
         #    jump scene_for_mindre_møterommet
-        # "til sportsmate-lageret":
+        # "Til Sportsmate-lageret":
         #    jump scene_sportsmate_lager
-        # "tilbake til mellomgangen":
+        # "Tilbake til mellomgangen":
         #    jump scene_mellomgang
         "Tilbake til LKO-området":
-            jump lko
+            jump lko_offices
         
