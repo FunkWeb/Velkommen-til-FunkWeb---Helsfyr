@@ -4,23 +4,23 @@ label jorgen_sondre_offices:
 
     show expression Transform("images/characters/jorgen_posing.webp", fit="contain", xsize=600, align=(0.0, 1.0)) at left with fade
     
-    jorgen "Hei. Jeg er Jørgen, og som Prosjektleder IT i FunkWeb avholder jeg jevnlige lynkurs, workshops, og utarbeider prosjektbeskrivelser for våres AFT-kandidater."
+    jorgen "Hei. Jeg er Jørgen. Som prosjektleder IT i FunkWeb avholder jeg jevnlige lynkurs, workshops, og utarbeider prosjektbeskrivelser for våre AFT-kandidater."
 
     # sondre_default mangler, og må byttes inn med riktig bilde.
     show expression Transform("images/characters/sondre_posing.webp", fit="contain", xsize=600, align=(1.0, 1.0)) at right with fade
 
-    sondre "Hei, Jeg heter Sondre." 
-    sondre "Jeg er IT-arkitekt og jobber med IT-Utvikling og er veileder for jobbsøkere og samarbeidspartnere."
+    sondre "Hei. Jeg heter Sondre." 
+    sondre "Jeg er IT-arkitekt og jobber med IT-utvikling. Jeg veileder også jobbsøkere og samarbeidspartnere."
 
     # scene_tilbake_i_lokalet og mellomgangen har ukjent scenenavn. må legges til.
     
     "Hvor vil du gå?"
     
     menu:
-        "Gå til veileder kontorene":
+        "Gå til veilederkontorene":
             jump aft_offices
             
-        # "til mellomgangen":
+        # "Til mellomgangen":
         #    jump scene_for_mellomgang    
         
         "Gå til LKO-området":
