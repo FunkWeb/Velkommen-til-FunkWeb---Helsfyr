@@ -1,7 +1,7 @@
 label aft_candidate_work_area:
-
-    scene temp_workspace_aft with fade
-
+        
+    scene expression Transform("images/rooms/temp_workspace_aft.webp", fit="cover", align=(0.5, 0.5)) with fade
+ 
     "Her sitter AFT kandidatene. Her kan du booke deg en plass og jobbe med prosjekter, skrive CV, jobbsøknader, eller kanskje ta noen onlinekurs."
     "Du kan reservere plass på booking.FunkWeb.no"
 
@@ -11,22 +11,22 @@ label aft_candidate_work_area:
     simen "Jeg har mange roller i FunkWeb og har vært med på det meste her i snart 10 år."
     simen "Jeg elsker like mye å få til gode samarbeid med arbeidsgiver og kandidat som det å teste produktene til Sportsmate." 
 
-    # følgende har ukjent scenenavn og må legges til. 
-    # scene_for_nest_største_møterommet, scene_for_mindre_møterommet, scene_sportsmate_lager og scene_mellomgang
     menu: 
         "Hvor vil du gå?"
-        "sosial sone":
-            jump social_room
-        "toalettene":
-            jump kitchen
-        # "til det nest største møterommet":
+        # "Til det nest største møterommet":
         #    jump scene_for_nest_største_møterommet
-        # "til det mindre møterommet":
+        # "Til et mindre møterom":
         #    jump scene_for_mindre_møterommet
-        # "til sportsmate-lageret":
+        # "Til Sportsmate-lageret":
         #    jump scene_sportsmate_lager
-        # "tilbake til mellomgangen":
-        #    jump scene_mellomgang
-        "tilbake til lko-området":
-            jump lko
+
+        # Kan eventuelt endres til "Gå til det nest største møterommet"
+        "Gå til møterom 8":
+            jump multi_purpose_room_and_course_room
+
+        "Tilbake til mellomgangen":
+            jump middle_hallway
+
+        "Tilbake til LKO-området":
+            jump lko_offices
         

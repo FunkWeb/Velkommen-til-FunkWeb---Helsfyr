@@ -17,10 +17,14 @@ label social_room:
         "Hvor vil du gå?"
         "kjøkken":
             jump kitchen
-        # "videre inn i lokalet":
-        #    jump scene_for_videre_i_lokalet
         "til det største møterommet":
             jump meetingroom_blue
         "inngangspartiet":
             jump funkweb_offices_entrance
+        #vei innover til bygget
+        "mellomgangen":
+            jump middle_hallway
+        # beholder texten under for nå 
+        # "videre inn i lokalet":
+        #    jump scene_for_videre_i_lokalet
 

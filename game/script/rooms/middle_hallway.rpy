@@ -5,8 +5,8 @@ label middle_hallway:
     
     "Her er det et stort fint bord hvor man kan sitte sammen, og et garderobeskap hvor man kan henge fra seg ting."
     
-    show expression Transform("trine_lise_smiling", zoom=0.25, xalign=0.9, yalign=-0.54) with fade
-     
+    show expression Transform("trine_lise_smiling_two", zoom=0.25, xalign=0.9, yalign=-1.0) with fade
+    
     trine_lise "Jeg er Trine-Lise og har hatt gleden av å jobbe i FunkWeb siden 2013." 
     trine_lise "Har jobbet på flere typer tiltak og nå AFT." 
     trine_lise "Min største motivasjon er å se at våre flotte deltakere lykkes i sin prosess og når de mål vi avklarer sammen." 
@@ -17,7 +17,7 @@ label middle_hallway:
     
     menu:
         "Gå tilbake til AFT-veileder kontoret":
-            jump aft_office
+            jump aft_offices
             
         "Gå til lærekandidatene sin arbeidsplass":
             jump lko_offices
