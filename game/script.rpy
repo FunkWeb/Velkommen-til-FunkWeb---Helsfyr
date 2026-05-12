@@ -1,8 +1,4 @@
-﻿﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-init python:
+﻿init python:
     # 1. DATA: List of 16 characters with multiple images
     gallery_items = [
         {"name": "Ingeborg Eikrem", "title": "HR-rådgiver / jobbspesialist", "desc": "Hei. Jeg heter Ingeborg og er jobbveileder og prosjektleder i FunkSoft. Noen sier jeg elsker Asana (prosjektstyringsverktøyet vårt). Det er ikke helt sant, men jeg liker å ha kontroll på hva som skjer i prosjektene. ", "images": ["ingeborg_pointing_up","ingeborg_pointing_down","ingeborg_pointing_right","ingeborg_serious","ingeborg_back","ingeborg_looking_over_shoulder","ingeborg_arms_up"]},
