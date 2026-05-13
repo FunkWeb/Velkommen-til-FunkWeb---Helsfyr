@@ -14,7 +14,7 @@ label meetingroom_blue:
     show expression Transform("ingeborg_pointing_right", zoom=0.25, xalign=0.1, yalign=-0.54) with fade 
     show expression Transform("jorgen_posing", zoom=0.25, xalign=0.9, yalign=-0.54) with fade 
     # se over dialogen her.
-    ingeborg "Dette er Jørgen. I dette rommet møtes vi hver torsdag kl. 10, og har FunkSoftmøter. Her diskuterer spill i alle former; hvilke spill vi liker å spille, nyheter og i ny og ne jobber med spillutviklingsprosjekter."
+    ingeborg "Dette er Jørgen. I dette rommet møtes vi hver torsdag kl. 10, og har FunkSoft møter. Her diskuterer spill i alle former; hvilke spill vi liker å spille, nyheter og i ny og ne jobber med utviklingsprosjekter."
 
     menu:
         "Hvor vil du gå?"
