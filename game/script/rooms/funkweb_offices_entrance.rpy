@@ -16,7 +16,7 @@ label .choice_menu:
                 call screen character_gallery
                 jump .choice_menu
                 
-            "Gå til møterommet":
+            "Gå til det største møterommet":
                 jump meetingroom_blue
 
             "Gå til sosialsona":
