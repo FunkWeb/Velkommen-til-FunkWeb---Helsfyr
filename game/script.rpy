@@ -143,10 +143,12 @@ define sondre = Character("Sondre")
 
 label start:
 jump outside_entrance
+jump outside_entrance
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
+    
     
 
     # This shows a character sprite. A placeholder is used, but you can
