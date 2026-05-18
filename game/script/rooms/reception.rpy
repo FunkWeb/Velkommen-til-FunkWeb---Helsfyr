@@ -11,13 +11,13 @@ label reception:
             scene expression Transform("bg/temp_staircase.webp", fit="cover", align=(0.5, 0.5)) with fade
             pause 1.5
             scene expression Transform("bg/temp_staircase_open_door.webp", fit="cover", align=(0.5, 0.5)) with Dissolve(1.0)
-            "Du finner trapper her"
+            "Du finner trapper her."
             jump reception
 
             
         "Hvor er heisen?":
             scene expression Transform("rooms/temp_entrance_hall_elevator.webp", fit="cover", align=(0.5, 0.5)) with fade
-            "Heisen finner du her"
+            "Heisen finner du her."
             jump reception
             
         "Ta meg opp til FunkWeb i 5. etasje":
