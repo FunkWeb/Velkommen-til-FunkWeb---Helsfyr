@@ -10,7 +10,7 @@ label middle_hallway:
     trine_lise "Jeg er Trine-Lise og har hatt gleden av å jobbe i FunkWeb siden 2013." 
     trine_lise "Har jobbet på flere typer tiltak og nå AFT." 
     trine_lise "Min største motivasjon er å se at våre flotte deltakere lykkes i sin prosess og når de mål vi avklarer sammen." 
-    trine_lise "Jeg er glad i å holde kurs, ha gode arbeidsmøter og være opptatt av at CV og søknader er så bra som mulig." 
+    trine_lise "Jeg er glad i å holde kurs, ha gode arbeidsmøter og være opptatt av at CV og søknader er så bra som mulig slik at vi kan ha fokus på alle de andre virkemidlene vi har for å nå ut til arbeidsgivere." 
     trine_lise "slik at vi kan ha fokus på alle de andre virkemidlene vi har for å nå ut til arbeidsgivere."
     
     "Hvor vil du gå videre?"
