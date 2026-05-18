@@ -15,14 +15,14 @@ label social_room:
     # videre inn i lokalet har ukjent scenenavn. må legges til.
     menu: 
         "Hvor vil du gå?"
-        "kjøkken":
+        "Kjøkken":
             jump kitchen
-        "til det største møterommet":
+        "Til det største møterommet":
             jump meetingroom_blue
-        "inngangspartiet":
+        "Inngangspartiet":
             jump funkweb_offices_entrance
         #vei innover til bygget
-        "mellomgangen":
+        "Mellomgangen":
             jump middle_hallway
         # beholder texten under for nå 
         # "videre inn i lokalet":
