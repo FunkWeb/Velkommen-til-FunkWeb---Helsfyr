@@ -1,7 +1,7 @@
 
 label upper_entrance:
     scene expression Transform("images/rooms/temp_funkweb_entrance.webp", fit="cover", align=(0.5, 0.5)) with fade
-    "Her er inngangen til Funkweb. Ring på døren så slippes du inn."
+    "Her er inngangen til FunkWeb. Ring på døren så slippes du inn."
    
     "Hva vil du gjøre?"
     
