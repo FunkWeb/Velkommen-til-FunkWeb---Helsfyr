@@ -20,7 +20,7 @@ label aft_offices:
             "Gå til mellomgang":
                 jump middle_hallway
                 
-            "Gå til området for lærekandidatene":
+            "Gå til LKO-området":
                 jump lko_offices
                 
     return
