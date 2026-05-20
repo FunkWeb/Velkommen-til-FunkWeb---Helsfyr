@@ -9,12 +9,12 @@ label aft_offices:
 
     
     kristin "Hei, jeg er Kristin. I tillegg til å være administrasjonskonsulent er jeg verneombud."
-    kristin "Det betyr at dere kan kontakte meg dersom dere har tilbakemeldinger i fht arbeidshverdagen i FunkWeb som dere ikke ønsker å ta opp med veileder"
+    kristin "Det betyr at dere kan kontakte meg dersom dere har tilbakemeldinger i fht arbeidshverdagen i FunkWeb som dere ikke ønsker å ta opp med veileder."
     
     "Hvor vil du gå videre?"
 
     menu:
-            "Gå tilbake til samtalerommene":
+            "Gå til samtalerommene":
                 jump meetingrooms_three_above_offices_near_kitchen
                 
             "Gå til mellomgang":
