@@ -1,5 +1,4 @@
-﻿
-init python:
+﻿init python:
     # 1. DATA: List of 16 characters with multiple images
     gallery_items = [
         {"name": "Ingeborg Eikrem", "title": "HR-rådgiver | Jobbspesialist", "desc": "Hei. Jeg heter Ingeborg og er jobbveileder og prosjektleder i FunkSoft. Noen sier jeg elsker Asana (prosjektstyringsverktøyet vårt). Det er ikke helt sant, men jeg liker å ha kontroll på hva som skjer i prosjektene.", "images": ["ingeborg_pointing_up","ingeborg_pointing_down","ingeborg_pointing_right","ingeborg_serious","ingeborg_back","ingeborg_looking_over_shoulder","ingeborg_arms_up"]},
@@ -146,10 +145,12 @@ define sondre = Character("Sondre")
 
 label start:
 jump outside_entrance
+jump outside_entrance
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
+    
     
 
     # This shows a character sprite. A placeholder is used, but you can

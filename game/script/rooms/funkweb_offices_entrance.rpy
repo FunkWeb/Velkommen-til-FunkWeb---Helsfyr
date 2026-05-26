@@ -1,6 +1,8 @@
 
 label funkweb_offices_entrance:
-    scene expression Transform("images/rooms/temp_waitingroom.webp", fit="cover", align=(0.5, 0.5)) with fade
+    scene expression Transform("images/bg/funkweb_waitingroom.webp", fit="cover", align=(0.5, 0.5)) with fade
+    pause 1.8
+    scene expression Transform("images/bg/funkweb_waitingroom_two.webp", fit="cover", align=(0.5, 0.5)) with fade
     show expression Transform("images/characters/johnny_smiling_two.webp", zoom=0.25, xalign=0.9, yalign=-0.54) with fade
 
     johnny "Hei, jeg er Johnny. Jeg er veileder her på FunkWeb og jobber i AFT: Arbeidforberedende tiltak." 
@@ -16,7 +18,7 @@ label .choice_menu:
                 call screen character_gallery
                 jump .choice_menu
                 
-            "Gå til møterommet":
+            "Gå til det største møterommet":
                 jump meetingroom_blue
 
             "Gå til sosialsona":
