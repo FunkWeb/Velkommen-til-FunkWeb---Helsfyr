@@ -24,8 +24,8 @@ label .choice_menu:
             "Gå til sosialsona":
                 jump social_room
 
-            "Gå til kjøkkenområdet":
-                jump kitchen
+            "Gå til mellomgangen":
+                jump middle_hallway
 
             "Gå tilbake til inngangen til FunkWeb":
                 jump upper_entrance
