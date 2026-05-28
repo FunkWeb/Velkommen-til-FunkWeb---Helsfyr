@@ -9,17 +9,11 @@ label multi_purpose_room_and_course_room:
     eric "Jeg forsøker å få kandidatene våre inn i markedsgruppen for Sportsmate og FunkWeb, og holder noen lynkurs."
     eric "Og fotokurs."
 
+    "Vil du spille igjen? Gå tilbake til inngangspartiet."
+    
     menu:
-        "Hvor vil du gå?"
-        "Til sosialsona":
-            jump social_room
-        "Til kjøkkenet":
-            jump kitchen
-        "Til toalettene":
-            jump toilets
-        "Til det største møterommet":
-            jump meetingroom_blue
-        "Til inngangspartiet":
+        "Gå tilbake til inngangspartiet":
             jump funkweb_offices_entrance
-
+        "Avslutt":
+            $ MainMenu(confirm=True)()
 return
