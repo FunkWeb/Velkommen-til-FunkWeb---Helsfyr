@@ -12,7 +12,7 @@ label canteen:
     menu canteen_menu:
         "Ta meg til resepsjonen i 1. etasje":
             jump reception
-        "Ta meg til 5. etasje og FunkWeb":
+        "Ta meg opp til FunkWeb i 5. etasje":
             jump upper_entrance
 
 return
