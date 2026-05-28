@@ -11,7 +11,7 @@ menu:
         jump social_room
     "Gå til kjøkkenet":
         jump kitchen
-    "Gå til møterommet":
+    "Gå til det største møterommet":
         jump meetingroom_blue
     
 return
