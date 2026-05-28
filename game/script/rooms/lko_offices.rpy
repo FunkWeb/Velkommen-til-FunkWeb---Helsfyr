@@ -14,7 +14,7 @@ label lko_offices:
         "Gå til AFT-veileder kontoret":
             jump aft_offices
             
-        "Gå til AFT-kandidatene sin arbeidsplass":
+        "Gå til arbeidsplassen til AFT-kandidatene":
             jump aft_candidate_work_area
             
         #"Gå til mellomgangen":
