@@ -109,7 +109,7 @@ menu:
     "Kontoret til Jørgen og Sondre":
         jump jorgen_sondre_offices
             
-    "Gå tilbake til kjøkkenet":
+    "Gå til kjøkkenet":
         jump kitchen
             
     "Gå til samtalerom":
