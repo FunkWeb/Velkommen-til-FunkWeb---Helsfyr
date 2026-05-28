@@ -86,5 +86,10 @@ Avhengig av operativsystem (se Ren’Py Quickstart for mer detaljert veiledning)
 > kommer senere
 
 ## Bidragsytere
-> [!NOTE]
-> kommer senere
+Retningslinjer for hvordan man kan bidra til utviklingen av spillet vil bli definert her.
+Eksempler:
+- Rapportering av bugs
+- Forslag til forbedringer
+- Koding og nye funksjoner
+- Grafikk, lyd og dialog
+- Pull requests og kode-standarder
