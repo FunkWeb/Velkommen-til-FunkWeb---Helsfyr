@@ -20,7 +20,7 @@ label jorgen_sondre_offices:
         "Gå til AFT-veileder kontoret":
             jump aft_offices
             
-        # "Til mellomgangen":
+        # "tilmellomgangen":
         #    jump scene_for_mellomgang    
         
         "Gå til LKO-området":
