@@ -8,13 +8,13 @@ label meetingrooms_three_above_offices_near_kitchen:
     "Hvor vil du gå?"
     
     menu: 
-        "Gå til veilederkontoret":
+        "Gå til AFT-veileder kontoret":
             jump aft_offices
         
         "Gå til kontoret til Jørgen og Sondre":
             jump jorgen_sondre_offices   
         
-        "Gå til rom 1, 2 og 3":
+        "Gå til ledelses kontoret 1-2-3":
             jump funkweb_offices_one_two_three     
             
         "Gå til kjøkkenet":

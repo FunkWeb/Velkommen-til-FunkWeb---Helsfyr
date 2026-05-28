@@ -11,10 +11,10 @@ label lko_offices:
     "Hvor vil du gå videre?"
     
     menu:
-        "Gå til veilederkontoret":
+        "Gå til AFT-veileder kontoret":
             jump aft_offices
             
-        "Gå til AFT-kandidatene sin arbeidsplass":
+        "Gå til arbeidsplassen til AFT-kandidatene":
             jump aft_candidate_work_area
             
         #"Gå til mellomgangen":
