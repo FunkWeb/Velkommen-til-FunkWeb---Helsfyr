@@ -37,7 +37,7 @@ label office_laila:
     "Hvor vil du gå videre?"
     
     menu:
-        "Tilbake til ledelseskontorene":
+        "Gå til ledelses kontoret 1-2-3":
             jump funkweb_offices_one_two_three
         
         "Kontoret til Hans":
@@ -68,7 +68,7 @@ label office_hans:
     "Hvor vil du gå videre?"
         
     menu:
-        "Til ledelseskontorene":
+        "Gå til ledelses kontoret 1-2-3":
             jump funkweb_offices_one_two_three
 
         "Kontor til Laila":
@@ -97,7 +97,7 @@ hans_tore "Hei, jeg heter Hans Tore og er fagansvarlig for alle lærlingene."
 "Hvor vil du gå videre?"
    
 menu:
-    "Tilbake til ledelseskontorene":
+    "Gå til ledelses kontoret 1-2-3":
         jump funkweb_offices_one_two_three
             
     "Kontor til Hans":
