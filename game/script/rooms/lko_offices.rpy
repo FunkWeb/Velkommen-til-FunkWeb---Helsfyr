@@ -1,6 +1,8 @@
 label lko_offices:
     #pause 2
-    scene expression Transform("images/rooms/temp_lko_workspace.webp", fit="cover", align=(0.5, 0.5)) with fade
+    scene expression Transform("images/rooms/lko_workspace_one.webp", fit="cover", align=(0.5, 0.5)) with fade
+    pause 1.0
+    scene expression Transform("images/rooms/lko_workspace.webp", fit="cover", align=(0.5, 0.5)) with fade
     
     "Dette er arbeidsplassen til lærekandidatene."
     
