@@ -1,7 +1,9 @@
 
 label aft_offices:
     
-    scene expression Transform("images/rooms/temp_office_aft_staff.webp", fit="cover", align=(0.5, 0.5)) with fade
+    scene expression Transform("images/rooms/office_aft_staff_door.webp", fit="cover", align=(0.5, 0.5)) with fade
+    pause 1
+    scene expression Transform("images/rooms/office_aft_staff.webp", fit="cover", align=(0.5, 0.5)) with fade
 
     "Her sitter veilederne, gjerne send en chat eller bank på om du lurer på noe."
     
