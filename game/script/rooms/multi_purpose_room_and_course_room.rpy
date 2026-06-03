@@ -1,6 +1,8 @@
 
 label multi_purpose_room_and_course_room:
-    scene expression Transform("rooms/temp_meetingroom_grey.webp", fit="cover", align=(0.5, 0.5)) with fade
+    scene expression Transform("rooms/meetingroom_eight.webp", fit="cover", align=(0.5, 0.5)) with fade
+    pause 1.0
+    scene expression Transform("rooms/meetingroom_grey.webp", fit="cover", align=(0.5, 0.5)) with fade
 
     "Dette er det andre møterommet. Her er det plass for flere personer. Her holdes det kurs, møter og du kan jobbe sammen i større grupper."
     
