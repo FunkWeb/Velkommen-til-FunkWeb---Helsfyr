@@ -18,12 +18,6 @@ label funkweb_offices_one_two_three:
         "Kontoret til Hans Tore":
             jump office_hans_tore
         
-        "Kontoret til Jørgen og Sondre":
-            jump jorgen_sondre_offices
-
-        "Gå til kjøkkenet":
-            jump kitchen
-        
         "Gå til samtalerom":
             jump meetingrooms_three_above_offices_near_kitchen
 
@@ -37,20 +31,11 @@ label office_laila:
     "Hvor vil du gå videre?"
     
     menu:
-        "Gå til ledelses kontoret 1-2-3":
-            jump funkweb_offices_one_two_three
-        
         "Kontoret til Hans":
             jump office_hans
     
         "Kontoret til Hans Tore":
             jump office_hans_tore
-            
-        "Kontoret til Jørgen og Sondre":
-            jump jorgen_sondre_offices
-            
-        "Gå til kjøkkenet":
-            jump kitchen
             
         "Gå til samtalerom":
             jump meetingrooms_three_above_offices_near_kitchen
@@ -68,21 +53,12 @@ label office_hans:
     "Hvor vil du gå videre?"
         
     menu:
-        "Gå til ledelses kontoret 1-2-3":
-            jump funkweb_offices_one_two_three
-
         "Kontor til Laila":
             jump office_laila
 
         "Kontor til Hans Tore":
             jump office_hans_tore
-
-        "Kontoret til Jørgen og Sondre":
-            jump jorgen_sondre_offices
-
-        "Gå til kjøkkenet":
-            jump kitchen
-                
+          
         "Gå til samtalerom":
             jump meetingrooms_three_above_offices_near_kitchen
 
@@ -97,20 +73,11 @@ hans_tore "Hei, jeg heter Hans Tore og er fagansvarlig for alle lærlingene."
 "Hvor vil du gå videre?"
    
 menu:
-    "Gå til ledelses kontoret 1-2-3":
-        jump funkweb_offices_one_two_three
-            
     "Kontor til Hans":
         jump office_hans
             
     "Kontor til Laila":
             jump office_laila
-            
-    "Kontoret til Jørgen og Sondre":
-        jump jorgen_sondre_offices
-            
-    "Gå til kjøkkenet":
-        jump kitchen
             
     "Gå til samtalerom":
         jump meetingrooms_three_above_offices_near_kitchen

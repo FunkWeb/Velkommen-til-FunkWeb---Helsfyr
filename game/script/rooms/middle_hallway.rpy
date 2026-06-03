@@ -21,7 +21,7 @@ label middle_hallway:
             
         "Gå til LKO-området":
             jump lko_offices
-            
-        "Gå til arbeidsplassen til AFT-kandidatene":
-            jump aft_candidate_work_area
-            
+
+        "Gå tilbake til samtalerommene":
+            jump meetingrooms_three_above_offices_near_kitchen
+     

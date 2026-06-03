@@ -22,5 +22,5 @@ label meetingroom_blue:
         "Hvor vil du gå?"
         "Sosialsona":
             jump social_room
-        "Kjøkkenområdet":
-            jump kitchen
+        "Gå tilbake til inngangspartiet":
+            jump funkweb_offices_entrance

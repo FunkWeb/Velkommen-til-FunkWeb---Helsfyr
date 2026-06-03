@@ -29,6 +29,6 @@ label aft_candidate_work_area:
         "Tilbake til mellomgangen":
             jump middle_hallway
 
-        "Tilbake til LKO-området":
-            jump lko_offices
+        "Gå tilbake til samtalerommene":
+            jump meetingrooms_three_above_offices_near_kitchen
         

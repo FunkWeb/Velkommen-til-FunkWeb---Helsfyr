@@ -22,12 +22,14 @@ label kitchen:
             jump social_room
         "Toalettene":
             jump toilets
-        "Til det største møterommet":
-            jump meetingroom_blue
-        "Inngangspartiet":
+
+        "Gå til samtalerommene":
+            jump meetingrooms_three_above_offices_near_kitchen    
+    
+        "Gå til inngangspartiet":
             jump funkweb_offices_entrance
         # vei inover i lokalet 
-        "Mellomgangen":
+        "Gå til mellomgangen":
             jump middle_hallway
         #er ikke sikker på hva dette er ment for, men sletter det ikke for nå
         # "Videre inn i lokalet":

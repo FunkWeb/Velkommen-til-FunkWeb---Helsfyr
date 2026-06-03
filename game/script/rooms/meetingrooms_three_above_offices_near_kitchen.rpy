@@ -16,12 +16,5 @@ label meetingrooms_three_above_offices_near_kitchen:
         
         "Gå til ledelses kontoret 1-2-3":
             jump funkweb_offices_one_two_three     
-            
-        "Gå til kjøkkenet":
-            jump kitchen
+    
         
-        "Gå til sosialsona":
-            jump social_room
-            
-        "Gå til toalettene":
-            jump toilets
