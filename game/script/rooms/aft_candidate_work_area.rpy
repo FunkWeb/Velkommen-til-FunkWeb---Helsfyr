@@ -4,7 +4,7 @@ label aft_candidate_work_area:
     pause 1.5
     scene expression Transform("images/rooms/workspace_aft.webp", fit="cover", align=(0.5, 0.5)) with fade
  
-    "Her sitter AFT kandidatene. Her kan du booke deg en plass og jobbe med prosjekter, skrive CV, jobbsøknader, eller kanskje ta noen onlinekurs."
+    "Her sitter AFT-kandidatene. Her kan du booke deg en plass og jobbe med prosjekter, skrive CV, jobbsøknader, eller kanskje ta noen onlinekurs."
     "Du kan reservere plass på booking.FunkWeb.no"
 
     show expression Transform("simen_smiling", zoom=0.25, xalign=0.9, yalign=-0.54) with fade 
@@ -26,9 +26,9 @@ label aft_candidate_work_area:
         "Gå til møterom 8":
             jump multi_purpose_room_and_course_room
 
-        "Tilbake til mellomgangen":
-            jump middle_hallway
+        "Gå til samtalerommene":
+            jump meetingrooms_three_above_offices_near_kitchen
 
-        "Tilbake til LKO-området":
+        "Gå til LKO-området":
             jump lko_offices
         

@@ -1,6 +1,8 @@
 
 label jorgen_sondre_offices:
     scene expression Transform("images/rooms/office_jorgen_sondre.webp", fit="cover", align=(0.5, 0.5)) with fade
+    pause 1.5
+    scene expression Transform("images/rooms/office_jorgen_sondre_inside.webp", fit="cover", align=(0.5, 0.5)) with fade
 
     show expression Transform("images/characters/jorgen_posing.webp", zoom=0.25, xalign=0.0, yalign=-0.54) with fade 
     
@@ -17,15 +19,12 @@ label jorgen_sondre_offices:
     
     menu:
         "Gå til AFT-veileder kontoret":
-            jump aft_offices
-            
-        # "tilmellomgangen":
-        #    jump scene_for_mellomgang    
+            jump aft_offices  
         
         "Gå til LKO-området":
             jump lko_offices
             
-        "Gå til ledelses kontoret 1-2-3":
+        "Gå til ledelseskontorene":
             jump funkweb_offices_one_two_three
         
         

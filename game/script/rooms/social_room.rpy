@@ -7,7 +7,7 @@ label social_room:
     
     show expression Transform("images/characters/laila_smiling.webp", zoom=0.25, xalign=0.9, yalign=-0.54) with fade
     laila "Hei, jeg heter Laila." 
-    laila "Jeg er Tiltaksansvarlig og HR-ansvarlig i FunkWeb." 
+    laila "Jeg er tiltaksansvarlig og HR-ansvarlig i FunkWeb." 
     laila "Det betyr at jeg har det daglige ansvaret for gjennomføring av tiltakene, og jeg har personalansvaret for ansatte." 
     laila "Jeg er også veileder noen ganger."
     laila "Jeg er veldig glad i de varierte oppgavene jeg har, og jeg føler meg priviligert."
@@ -16,16 +16,12 @@ label social_room:
     # videre inn i lokalet har ukjent scenenavn. må legges til.
     menu: 
         "Hvor vil du gå?"
-        "Kjøkken":
+        "Gå til kjøkkenet":
             jump kitchen
+        "Gå til samtalerommene":
+            jump meetingrooms_three_above_offices_near_kitchen
         "Til det største møterommet":
             jump meetingroom_blue
-        "Inngangspartiet":
+        "Gå til inngangspartiet":
             jump funkweb_offices_entrance
-        #vei innover til bygget
-        "Mellomgangen":
-            jump middle_hallway
-        # beholder texten under for nå 
-        # "videre inn i lokalet":
-        #    jump scene_for_videre_i_lokalet
-
+        
