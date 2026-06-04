@@ -19,6 +19,7 @@ label lko_offices:
         "Gå til arbeidsplassen til AFT-kandidatene":
             jump aft_candidate_work_area
             
-        #"Gå til mellomgangen":
-            #jump middle_hallway
+        "Gå til samtalerommene":
+            jump meetingrooms_three_above_offices_near_kitchen
+        
                 

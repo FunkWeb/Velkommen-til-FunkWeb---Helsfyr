@@ -18,8 +18,11 @@ label meetingroom_blue:
 
     menu:
         "Hvor vil du gå?"
-        "Sosialsona":
+   
+        "Gå til sosialsona":
             jump social_room
-        "Kjøkkenområdet":
+        "Gå til kjøkkenet":
             jump kitchen
+        "Gå til inngangspartiet":
+            jump funkweb_offices_entrance
         

@@ -21,11 +21,5 @@ label .choice_menu:
             "Gå til det største møterommet":
                 jump meetingroom_blue
 
-            "Gå til sosialsona":
-                jump social_room
-
-            "Gå til mellomgangen":
-                jump middle_hallway
-
-            "Gå tilbake til inngangen til FunkWeb":
+            "Gå til inngangen til FunkWeb":
                 jump upper_entrance
