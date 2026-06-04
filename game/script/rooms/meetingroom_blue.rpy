@@ -1,8 +1,6 @@
 
 label meetingroom_blue:
     scene expression Transform("images/rooms/meetingroom_one_overview_entrance.webp", fit="cover", align=(0.5, 0.5)) with fade
-    pause 1
-    scene expression Transform("images/rooms/meetingroom_one_entrance.webp", fit="cover", align=(0.5, 0.5)) with fade
     "Dette er det største møterommet, her holdes det markedsføringsmøter, FunkSoftmøter og kurs."
     
     show expression Transform("images/characters/ingeborg_serious.webp", zoom=0.25, xalign=0.1, yalign=-0.54) with fade
@@ -24,3 +22,6 @@ label meetingroom_blue:
             jump social_room
         "Gå tilbake til inngangspartiet":
             jump funkweb_offices_entrance
+        "Kjøkkenområdet":
+            jump kitchen
+        
