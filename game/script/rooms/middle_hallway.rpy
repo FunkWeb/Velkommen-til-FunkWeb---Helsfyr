@@ -1,7 +1,8 @@
 
 label middle_hallway:
+    scene expression Transform("images/rooms/middle_hallway_one.webp", fit="cover", align=(0.5, 0.5)) with fade
     
-    scene expression Transform("images/rooms/temp_middle_hallway.webp", fit="cover", align=(0.5, 0.5)) with fade
+    scene expression Transform("images/rooms/middle_hallway.webp", fit="cover", align=(0.5, 0.5)) with fade
     
     "Her er det et stort fint bord hvor man kan sitte sammen, og et garderobeskap hvor man kan henge fra seg ting."
     
