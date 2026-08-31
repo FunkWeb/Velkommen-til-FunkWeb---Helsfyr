@@ -1,5 +1,5 @@
 
-screen outside_arrow_screen():
+screen arrow_choice_screen_outside():
     default arrow_hovered = False
 
     imagebutton:
@@ -28,7 +28,7 @@ label outside_entrance:
     "I dette spillet skal du bli kjent med lokalene våre, menneskene som jobber her, og rommene du kan bruke."
     "Klikk deg rundt for å utforske."
 
-    call screen outside_arrow_screen
+    call screen arrow_choice_screen_outside
 
 
 
