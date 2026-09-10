@@ -2,10 +2,13 @@
 label funkweb_offices_entrance:
     scene expression Transform("images/rooms/temp_waitingroom.webp", fit="cover", align=(0.5, 0.5)) with fade
     show expression Transform("images/characters/johnny_smiling_two.webp", zoom=0.25, xalign=0.9, yalign=-0.54) with fade
+    if first_time("funkweb_offices_entrance"): 
+        johnny "Hei, jeg er Johnny. Jeg er veileder her på FunkWeb og jobber i AFT: Arbeidforberedende tiltak." 
+        johnny "Jeg elsker å prate om film, så hvis du ønsker å nerde litt om det, er jeg alltid positiv til det." 
+        johnny "Jeg snakker også flytende spansk."
+    else:
+        johnny "Hei igjen."
 
-    johnny "Hei, jeg er Johnny. Jeg er veileder her på FunkWeb og jobber i AFT: Arbeidforberedende tiltak." 
-    johnny "Jeg elsker å prate om film, så hvis du ønsker å nerde litt om det, er jeg alltid positiv til det." 
-    johnny "Jeg snakker også flytende spansk."
     johnny "La meg vise deg rundt."
 label .choice_menu:
     "Hvor vil du gå?"
