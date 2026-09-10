@@ -8,6 +8,8 @@ label upper_entrance:
     menu:
             "Ring på døren":
                 scene expression Transform("images/rooms/temp_hallway_doorbell.webp", fit="cover", align=(0.5, 0.5)) with fade
+                # doorbell sound effect 
+                play sound "audio/sfx/doorbell.ogg" volume 0.5 
                 "Du ringer på døren."
                 scene expression Transform("images/rooms/temp_funkweb_door_open.webp", fit="cover", align=(0.5, 0.5)) with fade
                 "Døren åpnes og du blir sluppet inn."
