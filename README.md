@@ -1,5 +1,7 @@
 # Spill9: Velkommen til FunkWeb - Helsfyr
 
+For English version, please see [README.en.md](README.en.md)  
+
 ## Om spillet
 **Velkommen til FunkWeb – Helsfyr** er et interaktivt Ren’Py-spill utviklet for å gi en enkel og engasjerende introduksjon til de nye lokalene på Helsfyr.
 
