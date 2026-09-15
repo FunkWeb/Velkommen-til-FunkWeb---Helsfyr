@@ -39,7 +39,7 @@ The game has a simple goal, intuitive and enganging ways to get used to the loca
 
 To be able to test this project locally:
 1. Clone this repository
-2, Download and install [Ren’Py 8.5.2](https://www.renpy.org/latest.html)  
+2. Download and install [Ren’Py 8.5.2](https://www.renpy.org/latest.html)  
 3. Place the whole repository folder in the Ren'Pt folder.
 
 Depending on the operating system (check Ren'Py Quickstart for a detailed guide):
