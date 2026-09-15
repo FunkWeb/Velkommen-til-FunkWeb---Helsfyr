@@ -5,7 +5,7 @@
 
 The game will let you explore the locale room by room. This includes meeting rooms, supervisor rooms, kitchen, social zones and workplaces for both LKO- and AFT-candidates. 
 
-Throuhgout the game you'll meet employees from different fields, where each character is presented through short dialogs that describe who they are and what they work with. The game also features a picture gallery, giving you an overview of the employees working at FunkWeb, so that new participants can easiy get to know the people at FunkWeb. 
+Throughout the game you'll meet employees from different fields, where each character is presented through short dialogs that describe who they are and what they work with. The game also features a picture gallery, giving you an overview of the employees working at FunkWeb, so that new participants can easiy get to know the people at FunkWeb. 
 
 The game has a simple goal, intuitive and enganging ways to get used to the locale, environment and the employees at FunkWeb Helsfyr.
 
@@ -13,7 +13,7 @@ The game has a simple goal, intuitive and enganging ways to get used to the loca
 > [!NOTE]
 > coming soon
 
-## Requirements / Systemrequirements
+## Requirements / System requirements
 
 ### Windows
 - Operating system: Windows 10 or newer  
@@ -35,22 +35,21 @@ The game has a simple goal, intuitive and enganging ways to get used to the loca
 
 ## Installation & Running
 > [!WARNING]
-**Merk:** This section can be updated if necessary.
+**NOTE:** This section can be updated if necessary.
 
 To be able to test this project locally:
 1. Clone this repository
 2. Download and install [Ren’Py 8.5.2](https://www.renpy.org/latest.html)  
-3. Place the whole repository folder in the Ren'Pt folder.
+3. Place the whole repository folder in the Ren'Py folder.
 
 Depending on the operating system (check Ren'Py Quickstart for a detailed guide):
-### Windows: Double click on `renpy.exe`
-### macOS: Double click the disk image, mount it as a virtual drive, open the folder and run
-    the Ren'Py application.
-### Linux: Extract the Ren'Py ZIP-file, navigate to `renpy-<version>`folder, and run `renpy.sh``
+ * Windows: Double click on `renpy.exe`.
+ * macOS:  Double click the disk image, mount it as a virtual drive, open the folder and       run the Ren’Py application.
+ * Linux: Extract the Ren'Py ZIP-file, navigate to `renpy-<version>`folder, and run           `renpy.sh`
 
-## Technologiers and tools used
+## Technologies and tools used
 > [!NOTE]
-> Merk: Information about sound tools and sound processing will be added at a later point. 
+> Information about sound tools and sound processing will be added at a later point. 
 
 ### Game development
 - Ren’Py 8.5.2 – game engine  
