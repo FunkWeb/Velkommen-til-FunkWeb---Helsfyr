@@ -43,10 +43,10 @@ To be able to test this project locally:
 3. Place the whole repository folder in the Ren'Pt folder.
 
 Depending on the operating system (check Ren'Py Quickstart for a detailed guide):
-    * Windows: Double click on `renpy.exe`
-    * macOS: Double click the disk image, mount it as a virtual drive, open the folder and run
+### Windows: Double click on `renpy.exe`
+### macOS: Double click the disk image, mount it as a virtual drive, open the folder and run
     the Ren'Py application.
-    * Linux: Extract the Ren'Py ZIP-file, navigate to `renpy-<version>`folder, and run `renpy.sh``
+### Linux: Extract the Ren'Py ZIP-file, navigate to `renpy-<version>`folder, and run `renpy.sh``
 
 ## Technologiers and tools used
 > [!NOTE]
