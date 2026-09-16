@@ -2,13 +2,11 @@ screen arrow_choice_screen():
     default door_arrow_hovered = False
     default elevator_arrow_hovered = False
     
-    # Define arrow positions as variables for easy moving
     default door_arrow_x = 0.52
     default door_arrow_y = 0.59
     default elevator_arrow_x = 0.69
     default elevator_arrow_y = 0.55
     
-    # Text offsets from arrow position
     default door_text_y_offset = 0.09
     default elevator_text_x_offset = 0.020
     default elevator_text_y_offset = 0.065
