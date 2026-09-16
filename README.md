@@ -46,6 +46,19 @@ For å kunne teste prosjektet lokalt:
 Avhengig av operativsystem (se Ren’Py Quickstart for mer detaljert veiledning):
  * Windows: Dobbeltklikk på `renpy.exe`
  * macOS: Dobbeltklikk på diskfilen (disk image), monter den som en virtuell drive, åpne mappen og kjør Ren’Py-applikasjonen
+ * For macer med M1 prosessor eller høyere:
+1. Flytt hele renpy-<versjon>-sdk mappen til en plass der du har Write permissions, som Applikasjon mappen.
+2. Gå inn i renpy<versjon>-sdk mappen.
+3. Finn renpy.app.
+4. Høyreklikk på renpy.app → velg «Vis pakkeinnhold».
+5. Åpne Contents → MacOS.
+6. Dobbeltklikk renpy.
+
+**Valgfritt steg: Lag en snarvei**
+
+7. Høyreklikk på renpy → velg «Lag alias».
+8. Flytt aliaset til et sted som er lett tilgjengelig for deg, for eksempel Skrivebordet.
+
  * Linux: Pakk ut Ren’Py ZIP-filen, naviger til `renpy-<versjon>`-mappen, og kjør `renpy.sh`
 
 ## Teknologier og verktøy brukt
