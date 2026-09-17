@@ -10,8 +10,47 @@ Underveis møter du ansatte i ulike roller, hvor hver karakter presenteres gjenn
 Målet med spillet er å gjøre det enkelt, intuitivt og engasjerende å bli kjent med både lokaler, miljø og ansatte i FunkWeb Helsfyr.
 
 ## Skjermbilder
-> [!NOTE]
-> kommer senere
+
+### Hovedmeny
+
+<img width="1919" height="1079" alt="Hovedmeny" src="https://github.com/user-attachments/assets/50a26d70-3223-4e69-9e9e-4a87f290c4d7" />
+
+**Beskrivelse:**
+
+- Spillet starter i hovedmenyen.
+- FunkWeb ligger i 5. etasje i bygningen.
+- Fra takterrassen har du en flott panoramautsikt over Oslo.
+
+### Personalgalleri
+
+<img width="1919" height="1079" alt="Personalgalleri" src="https://github.com/user-attachments/assets/be80c1c5-2e0f-424c-8e59-893bdbbc2c3b" />
+
+**Beskrivelse:**
+
+- Personalgalleriet gir en oversikt over ansatte hos FunkWeb.
+- Hver person har et bilde og en kort beskrivelse.
+- Galleriet gjør det enklere å bli kjent med menneskene som jobber hos FunkWeb.
+
+### Inngangspartiet
+
+<img width="1870" height="1066" alt="Inngangspartiet" src="https://github.com/user-attachments/assets/25a46bdb-29b0-4c30-a3de-6ab71f46a5df" />
+
+**Beskrivelse:**
+
+- Inngangen er det første området av FunkWeb som spilleren møter i spillet.
+- Her finner du resepsjonen til FunkWeb.
+- Johnny, som er veileder hos FunkWeb, møter spilleren i denne scenen.
+- Fra denne scenen kan spilleren navigere til andre områder gjennom menyalternativene.
+
+### Sosialsona
+
+<img width="1919" height="1078" alt="Sosialsona" src="https://github.com/user-attachments/assets/41f4f618-249c-4443-a0cc-72e8b719f098" />
+
+**Beskrivelse:**
+
+- Sosial sone er et fellesområde hvor ansatte og kandidater kan spise lunsj, slappe av og være sosial.
+- Området brukes også til aktiviteter som bingo og vaffelmusikk.
+- Møter og presentasjoner kan også holdes her.
 
 ## Krav / Systemkrav
 
