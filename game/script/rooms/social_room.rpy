@@ -14,7 +14,7 @@ label social_room:
     laila "Jeg liker spesielt å møte alle fine mennesker som av ulike grunner er  tilknyttet FunkWeb."
     
     # videre inn i lokalet har ukjent scenenavn. må legges til.
-    Hvor vil du gå?
+    "Hvor vil du gå?"
     call screen navigation_placement("social_room")
     # menu: 
     #     "Hvor vil du gå?"
