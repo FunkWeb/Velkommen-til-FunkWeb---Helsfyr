@@ -100,7 +100,7 @@ define navigation_arrows_data = {
             "Gå til inngangspartiet"),
 
         (
-            0.10, 0.50, 180,
+            0.10, 0.50, 225,
             "meetingroom_blue",
             "Gå til det største møterommet")
     ],
