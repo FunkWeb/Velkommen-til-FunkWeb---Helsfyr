@@ -1,22 +1,22 @@
 
-screen arrow_choice_screen_outside():
-    default arrow_hovered = False
+# screen arrow_choice_screen_outside():
+#     default arrow_hovered = False
 
-    imagebutton:
-        xalign 0.28
-        yalign 0.921
-        at Transform(zoom=0.25, rotate=-50)
-        idle "images/ui/right_arrow_idle.png"
-        hover "images/ui/right_arrow_hover.png"
-        focus_mask True
-        hovered SetScreenVariable("arrow_hovered", True)
-        unhovered SetScreenVariable("arrow_hovered", False)
-        action Jump("reception")
+#     imagebutton:
+#         xalign 0.28
+#         yalign 0.921
+#         at Transform(zoom=0.25, rotate=-50)
+#         idle "images/ui/right_arrow_idle.png"
+#         hover "images/ui/right_arrow_hover.png"
+#         focus_mask True
+#         hovered SetScreenVariable("arrow_hovered", True)
+#         unhovered SetScreenVariable("arrow_hovered", False)
+#         action Jump("reception")
 
-    if arrow_hovered:
-        text "Velkommen inn!":
-            xalign 0.270
-            yalign 0.936
+#     if arrow_hovered:
+#         text "Velkommen inn!":
+#             xalign 0.270
+#             yalign 0.936
 
 
 label outside_entrance:
@@ -28,7 +28,8 @@ label outside_entrance:
     "I dette spillet skal du bli kjent med lokalene våre, menneskene som jobber her, og rommene du kan bruke."
     "Klikk deg rundt for å utforske."
 
-    call screen arrow_choice_screen_outside
+    #call screen arrow_choice_screen_outside
+    call screen navigation_placement("outside_entrance")
 
 
 
