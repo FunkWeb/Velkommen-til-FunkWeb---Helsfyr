@@ -42,12 +42,21 @@ screen navigation_arrow(x, y, rotation, destination, tooltip):
 # 
 define navigation_arrows_data = {
 
+    "outside_entrance": [
+        (
+            0.28, 0.921, -50,
+            "reception",
+            "Velkommen inn!"
+        )
+    ],
+
     "upper_entrance": [
         (
             0.52, 0.59, -90,
             "ring_doorbell",
             "Ring på døren"
         ),
+        
         (
             0.69, 0.55, 0,
             "reception",
