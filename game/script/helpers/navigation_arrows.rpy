@@ -41,6 +41,19 @@ screen navigation_arrow(x, y, rotation, destination, tooltip):
 
 # 
 define navigation_arrows_data = {
+
+    "upper_entrance": [
+        (
+            0.52, 0.59, -90,
+            "ring_doorbell",
+            "Ring på døren"
+        ),
+        (
+            0.69, 0.55, 0,
+            "reception",
+            "Tilbake til resepsjonen"
+        )
+    ],
     
     "funkweb_offices_entrance": [
         (
@@ -102,14 +115,7 @@ define navigation_arrows_data = {
             0.10,0.70,345,
             "aft_candidate_work_area",
             "Gå til arbeidsområdet for kandidater"), 
-    ],
-
-    "upper_entrance": [
-        (
-            0.15, 0.50, 180,
-            "meetingroom",
-            "Gå tilbake til møterommet"),
-    ],
+    ]
 }
 
 
