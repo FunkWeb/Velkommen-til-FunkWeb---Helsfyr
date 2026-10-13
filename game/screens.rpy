@@ -357,8 +357,9 @@ screen main_menu():
     ## This ensures that any other menu screen is replaced.
     tag menu
 
-    add gui.main_menu_background
-
+    add gui.main_menu_background:
+        xsize 1270
+        ysize 720
     ## This empty frame darkens the main menu.
     frame:
         style "main_menu_frame"
@@ -386,7 +387,7 @@ style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
 
 style main_menu_frame:
-    xsize 280
+    xsize 180
     yfill True
 
     background "gui/overlay/main_menu.png"
@@ -396,10 +397,21 @@ style main_menu_vbox:
     xoffset -20
     xmaximum 800
     yalign 1.0
-    yoffset -20
+    yoffset -430
+    
+    # FOR MAIN MENU ONLY: 
+    # Force the navigation separator line/borders to use yellow
+    left_bar Solid("#FDB738")  # If the line is an interactive menu bar
+    background Solid("#FDB738") # If the line is a custom background divider
+
 
 style main_menu_text:
     properties gui.text_properties("main_menu", accent=True)
+    
+    # Add your specific colors here:
+    color "#FDB738"        # The base color of the text
+    hover_color "#00FFCC"  # Optional: Color if the text acts as a link/button
+
 
 style main_menu_title:
     properties gui.text_properties("title")

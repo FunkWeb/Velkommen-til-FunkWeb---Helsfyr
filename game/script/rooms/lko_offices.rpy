@@ -1,6 +1,8 @@
 label lko_offices:
     #pause 2
-    scene expression Transform("images/rooms/temp_lko_workspace.webp", fit="cover", align=(0.5, 0.5)) with fade
+    scene expression Transform("images/rooms/lko_workspace_one.webp", fit="cover", align=(0.5, 0.5)) with fade
+    pause 1.0
+    scene expression Transform("images/rooms/lko_workspace.webp", fit="cover", align=(0.5, 0.5)) with fade
     
     "Dette er arbeidsplassen til lærekandidatene."
     
@@ -11,12 +13,13 @@ label lko_offices:
     "Hvor vil du gå videre?"
     
     menu:
-        "Gå til veilederkontoret":
+        "Gå til AFT-veileder kontoret":
             jump aft_offices
             
-        "Gå til AFT-kandidatene sin arbeidsplass":
+        "Gå til arbeidsplassen til AFT-kandidatene":
             jump aft_candidate_work_area
             
-        #"Gå til mellomgangen":
-            #jump middle_hallway
+        "Gå til samtalerommene":
+            jump meetingrooms_three_above_offices_near_kitchen
+        
                 

@@ -1,27 +1,19 @@
 label meetingrooms_three_above_offices_near_kitchen:
     
-    scene expression Transform("images/rooms/temp_meetingrooms.webp", fit="cover", align=(0.5, 0.5)) with fade
+    scene expression Transform("images/rooms/meetingrooms.webp", fit="cover", align=(0.5, 0.5)) with fade
 
     "Dette er samtalerom hvor du kan møtes med din veileder, eller samles i mindre grupper for å jobbe sammen."
-    "Vi har seks slike rom: 2, 3, 4, 5 og 6."
+    "Vi har seks slike rom: 2, 3, 4, 5, 6 og 7."
 
     "Hvor vil du gå?"
     
     menu: 
-        "Gå til veilederkontoret":
+        "Gå til AFT-veileder kontoret":
             jump aft_offices
         
         "Gå til kontoret til Jørgen og Sondre":
             jump jorgen_sondre_offices   
         
-        "Gå til rom 1, 2 og 3":
+        "Gå til ledelseskontorene":
             jump funkweb_offices_one_two_three     
-            
-        "Gå til kjøkkenet":
-            jump kitchen
-        
-        "Gå til sosialsona":
-            jump social_room
-            
-        "Gå til toalettene":
-            jump toilets
+    

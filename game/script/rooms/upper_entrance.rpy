@@ -1,7 +1,7 @@
 
 label upper_entrance:
-    scene expression Transform("images/rooms/temp_funkweb_entrance.webp", fit="cover", align=(0.5, 0.5)) with fade
-    "Her er inngangen til Funkweb. Ring på døren så slippes du inn."
+    scene expression Transform("bg/funkweb_entrance.webp", fit="cover", align=(0.5, 0.5)) with fade
+    "Her er inngangen til FunkWeb. Ring på døren så slippes du inn."
    
     "Hva vil du gjøre?"
     
@@ -11,7 +11,7 @@ label upper_entrance:
                 # doorbell sound effect 
                 play sound "audio/sfx/doorbell.ogg" volume 0.5 
                 "Du ringer på døren."
-                scene expression Transform("images/rooms/temp_funkweb_door_open.webp", fit="cover", align=(0.5, 0.5)) with fade
+                scene expression Transform("rooms/funkweb_door_open_entrance.webp", fit="cover", align=(0.5, 0.5)) with fade
                 "Døren åpnes og du blir sluppet inn."
                 jump funkweb_offices_entrance
 
