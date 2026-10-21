@@ -61,14 +61,5 @@ label funkweb_offices_entrance:
 label .choice_menu:
     "Hvor vil du gå?"
     
-    menu:
-        
-            "Se på persongalleriet":
-                call screen character_gallery
-                jump .choice_menu
-                
-            "Gå til det største møterommet":
-                jump meetingroom_blue
-
-            "Gå til inngangen til FunkWeb":
-                jump upper_entrance
+    # pilnavigasjon
+    call screen navigation_placement("funkweb_offices_entrance")

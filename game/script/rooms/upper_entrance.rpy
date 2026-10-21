@@ -48,21 +48,9 @@ label upper_entrance:
     "Her er inngangen til FunkWeb. Ring på døren så slippes du inn."
    
     "Hva vil du gjøre?"
-    call screen navigation_placement("upper_entrance")
     
-    menu:
-            "Ring på døren":
-                scene expression Transform("images/rooms/temp_hallway_doorbell.webp", fit="cover", align=(0.5, 0.5)) with fade
-                # doorbell sound effect 
-                play sound "audio/sfx/doorbell.ogg" volume 0.5 
-                "Du ringer på døren."
-                scene expression Transform("rooms/funkweb_door_open_entrance.webp", fit="cover", align=(0.5, 0.5)) with fade
-                "Døren åpnes og du blir sluppet inn."
-                jump funkweb_offices_entrance
-
-            "Gå tilbake til resepsjonen":
-                jump reception
-
+    # pilnavigasjon
+    call screen navigation_placement("upper_entrance")
 
 label ring_doorbell:
     scene expression Transform("images/bg/funkweb_door_bell.webp", fit="cover", align=(0.5, 0.5)) with fade
