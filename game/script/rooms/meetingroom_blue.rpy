@@ -1,6 +1,5 @@
 
 label meetingroom_blue:
-    #scene meetingroom_blue
     scene expression Transform("images/rooms/meetingroom_one_overview_entrance.webp", fit="cover", align=(0.5, 0.5)) with fade
     "Dette er det største møterommet, her holdes det markedsføringsmøter, FunkSoftmøter og kurs."
     
@@ -17,18 +16,13 @@ label meetingroom_blue:
     # se over dialogen her.
     ingeborg "Dette er Jørgen. I dette rommet møtes vi hver torsdag kl. 10, og har FunkSoft møter. Her diskuterer spill i alle former; hvilke spill vi liker å spille, nyheter og i ny og ne jobber med utviklingsprosjekter."
 
-    "Hvor vil du gå?"
-    call screen navigation_placement("meetingroom_blue")
-    #use navigation_placement("meetingroom_blue")
-
-
-    # menu:
-    #     "Hvor vil du gå?"
+    menu:
+        "Hvor vil du gå?"
    
-    #     "Gå til sosialsona":
-    #         jump social_room
-    #     "Gå til kjøkkenet":
-    #         jump kitchen
-    #     "Gå til inngangspartiet":
-    #         jump funkweb_offices_entrance
+        "Gå til sosialsona":
+            jump social_room
+        "Gå til kjøkkenet":
+            jump kitchen
+        "Gå til inngangspartiet":
+            jump funkweb_offices_entrance
         

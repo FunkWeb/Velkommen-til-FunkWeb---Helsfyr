@@ -58,7 +58,17 @@ label funkweb_offices_entrance:
     johnny "Jeg elsker å prate om film, så hvis du ønsker å nerde litt om det, er jeg alltid positiv til det." 
     johnny "Jeg snakker også flytende spansk."
     johnny "La meg vise deg rundt."
-    johnny "Klikk på bildet av meg hvis du vil se persongalleriet."
-    "Klikk på en pil for å utforske videre."
+label .choice_menu:
+    "Hvor vil du gå?"
+    
+    menu:
+        
+            "Se på persongalleriet":
+                call screen character_gallery
+                jump .choice_menu
+                
+            "Gå til det største møterommet":
+                jump meetingroom_blue
 
-    call screen navigation_placement("funkweb_offices_entrance")
+            "Gå til inngangen til FunkWeb":
+                jump upper_entrance
