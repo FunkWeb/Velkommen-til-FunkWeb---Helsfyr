@@ -50,6 +50,14 @@ define navigation_arrows_data = {
         )
     ],
 
+    "reception": [
+        (
+            0.621, 1.04, -90,
+            "reception_choices",
+            "Gå gjennom døren"
+        )
+    ],
+
     "upper_entrance": [
         (
             0.52, 0.59, -90,
