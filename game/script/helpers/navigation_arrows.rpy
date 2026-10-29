@@ -13,7 +13,7 @@ screen navigation_arrow(x, y, rotation, destination, tooltip):
         yalign y
 
         at Transform(
-            zoom=0.25,
+            zoom=0.1,
             rotate=rotation
         )
 
