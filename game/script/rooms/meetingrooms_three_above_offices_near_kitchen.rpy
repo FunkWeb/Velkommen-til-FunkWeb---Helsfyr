@@ -7,13 +7,4 @@ label meetingrooms_three_above_offices_near_kitchen:
 
     "Hvor vil du gå?"
     
-    menu: 
-        "Gå til AFT-veileder kontoret":
-            jump aft_offices
-        
-        "Gå til kontoret til Jørgen og Sondre":
-            jump jorgen_sondre_offices   
-        
-        "Gå til ledelseskontorene":
-            jump funkweb_offices_one_two_three     
-    
+    call screen navigation_placement("meetingrooms_three_above_offices_near_kitchen")

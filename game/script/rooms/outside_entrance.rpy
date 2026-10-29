@@ -28,6 +28,5 @@ label outside_entrance:
     "I dette spillet skal du bli kjent med lokalene våre, menneskene som jobber her, og rommene du kan bruke."
     "Klikk deg rundt for å utforske."
 
-    menu:
-        "Velkommen inn":
-            jump reception
+    # pilnavigasjon
+    call screen navigation_placement("outside_entrance")

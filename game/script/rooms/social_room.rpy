@@ -14,14 +14,7 @@ label social_room:
     laila "Jeg liker spesielt å møte alle fine mennesker som av ulike grunner er  tilknyttet FunkWeb."
     
     # videre inn i lokalet har ukjent scenenavn. må legges til.
-    menu: 
-        "Hvor vil du gå?"
-        "Gå til kjøkkenet":
-            jump kitchen
-        "Gå til samtalerommene":
-            jump meetingrooms_three_above_offices_near_kitchen
-        "Til det største møterommet":
-            jump meetingroom_blue
-        "Gå til inngangspartiet":
-            jump funkweb_offices_entrance
-        
+
+    # pilnavigasjon
+    call screen navigation_placement("social_room")
+   

@@ -16,13 +16,5 @@ label meetingroom_blue:
     # se over dialogen her.
     ingeborg "Dette er Jørgen. I dette rommet møtes vi hver torsdag kl. 10, og har FunkSoft møter. Her diskuterer spill i alle former; hvilke spill vi liker å spille, nyheter og i ny og ne jobber med utviklingsprosjekter."
 
-    menu:
-        "Hvor vil du gå?"
-   
-        "Gå til sosialsona":
-            jump social_room
-        "Gå til kjøkkenet":
-            jump kitchen
-        "Gå til inngangspartiet":
-            jump funkweb_offices_entrance
-        
+    # pilnavigasjon
+    call screen navigation_placement("meetingroom_blue")
