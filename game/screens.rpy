@@ -76,6 +76,12 @@ style frame:
     background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
 
 
+# Colors
+define funkweb_yellow = "#FAB63ACC"
+define funkweb_violet = "#342e57"
+define office_dark = "#282828"
+define office_cream = "#F6F2E9"
+define office_grey = "#D9D5CA"
 
 ################################################################################
 ## In-game screens
