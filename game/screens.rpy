@@ -113,7 +113,28 @@ screen say(who, what):
                 style "namebox"
                 text who id "who"
 
-        text what id "what"
+
+        text what:
+            id "what"
+            color office_dark
+            size 24
+            line_spacing 5
+            xmaximum 600
+        null height 5
+
+        #Bottom info
+        hbox: 
+            xfill True
+            spacing 5
+
+            text "FunkWeb / KONTOR GUIDE":
+                color "#77736B"
+                size 13
+            null
+            text "KlIKK FOR Å FORTSETTE →":
+                color office_dark
+                size 14
+                bold True
 
 
     ## If there's a side image, display it above the text. Do not display on the
