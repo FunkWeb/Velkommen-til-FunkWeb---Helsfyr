@@ -106,6 +106,9 @@ screen say(who, what):
     window:
         id "window"
 
+        xsize 1000
+        xalign 0.5
+        background Solid(funkweb_yellow)
         if who is not None:
 
             window:
