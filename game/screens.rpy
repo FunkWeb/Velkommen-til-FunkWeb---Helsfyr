@@ -155,6 +155,7 @@ style namebox:
 
 style say_label:
     properties gui.text_properties("name", accent=True)
+    color funkweb_violet
     xalign gui.name_xalign
     yalign 0.5
 
