@@ -77,7 +77,7 @@ style frame:
 
 
 # Colors
-define funkweb_yellow = "#FAB63ACC"
+define funkweb_yellow = "#FAB63A"
 define funkweb_violet = "#342e57"
 define office_dark = "#282828"
 define office_cream = "#F6F2E9"
@@ -108,7 +108,8 @@ screen say(who, what):
 
         xsize 1000
         xalign 0.5
-        background Solid(funkweb_yellow)
+        # CC at the end adds transparency to the background color
+        background Solid(funkweb_yellow+"CC")
         if who is not None:
 
             window:
