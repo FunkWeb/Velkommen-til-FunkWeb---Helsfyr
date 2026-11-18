@@ -109,7 +109,7 @@ screen say(who, what):
         xsize 1000
         xalign 0.5
         # CC at the end adds transparency to the background color
-        background Solid(funkweb_yellow+"CC")
+        background Solid(funkweb_yellow+"F2")
         if who is not None:
 
             window:
